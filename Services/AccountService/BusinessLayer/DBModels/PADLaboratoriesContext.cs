@@ -23,7 +23,8 @@ namespace BusinessLayer.DBModels
         {
             if (!optionsBuilder.IsConfigured)
             {
-optionsBuilder.UseSqlServer("Server=localhost;Database=PADLaboratories;Trusted_Connection=True;");
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
+                optionsBuilder.UseSqlServer("Server=localhost;Database=PADLaboratories;Trusted_Connection=True;");
             }
         }
 
@@ -71,6 +72,10 @@ optionsBuilder.UseSqlServer("Server=localhost;Database=PADLaboratories;Trusted_C
                 entity.Property(e => e.Ron).HasColumnName("RON");
 
                 entity.Property(e => e.Rub).HasColumnName("RUB");
+
+                entity.Property(e => e.TimeCurrency)
+                    .HasColumnType("datetime")
+                    .HasDefaultValueSql("(getdate())");
 
                 entity.Property(e => e.Type)
                     .IsRequired()
