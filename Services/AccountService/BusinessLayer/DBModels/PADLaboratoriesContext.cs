@@ -92,13 +92,16 @@ namespace BusinessLayer.DBModels
             {
                 entity.HasKey(e => e.TransactionId);
 
-                entity.Property(e => e.TransactionId)
-                    .HasColumnName("TransactionID")
-                    .ValueGeneratedNever();
+                entity.Property(e => e.TransactionId).HasColumnName("TransactionID");
 
                 entity.Property(e => e.AccountOwnerId).HasColumnName("AccountOwnerID");
 
                 entity.Property(e => e.AccountReceiverId).HasColumnName("AccountReceiverID");
+
+                entity.Property(e => e.Currency)
+                    .IsRequired()
+                    .HasMaxLength(20)
+                    .IsUnicode(false);
 
                 entity.Property(e => e.Date).HasColumnType("datetime");
 

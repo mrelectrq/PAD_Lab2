@@ -1,0 +1,9 @@
+D:\Visual Projects\UTM\PAD\PAD_Lab2\Services\TransactionService\Account.BussinessLayer\bin\Debug\netcoreapp3.1\Account.BussinessLayer.deps.json
+D:\Visual Projects\UTM\PAD\PAD_Lab2\Services\TransactionService\Account.BussinessLayer\bin\Debug\netcoreapp3.1\Account.BussinessLayer.dll
+D:\Visual Projects\UTM\PAD\PAD_Lab2\Services\TransactionService\Account.BussinessLayer\bin\Debug\netcoreapp3.1\Account.BussinessLayer.pdb
+D:\Visual Projects\UTM\PAD\PAD_Lab2\Services\TransactionService\Account.BussinessLayer\obj\Debug\netcoreapp3.1\Account.BussinessLayer.csprojAssemblyReference.cache
+D:\Visual Projects\UTM\PAD\PAD_Lab2\Services\TransactionService\Account.BussinessLayer\obj\Debug\netcoreapp3.1\Account.BussinessLayer.AssemblyInfoInputs.cache
+D:\Visual Projects\UTM\PAD\PAD_Lab2\Services\TransactionService\Account.BussinessLayer\obj\Debug\netcoreapp3.1\Account.BussinessLayer.AssemblyInfo.cs
+D:\Visual Projects\UTM\PAD\PAD_Lab2\Services\TransactionService\Account.BussinessLayer\obj\Debug\netcoreapp3.1\Account.BussinessLayer.csproj.CoreCompileInputs.cache
+D:\Visual Projects\UTM\PAD\PAD_Lab2\Services\TransactionService\Account.BussinessLayer\obj\Debug\netcoreapp3.1\Account.BussinessLayer.dll
+D:\Visual Projects\UTM\PAD\PAD_Lab2\Services\TransactionService\Account.BussinessLayer\obj\Debug\netcoreapp3.1\Account.BussinessLayer.pdb

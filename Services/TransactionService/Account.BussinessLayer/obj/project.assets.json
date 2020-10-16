@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Visual Projects\\UTM\\PAD\\Lab2\\TransactionService\\Account.BussinessLayer\\Account.BussinessLayer.csproj",
+      "projectUniqueName": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2\\Services\\TransactionService\\Account.BussinessLayer\\Account.BussinessLayer.csproj",
       "projectName": "Account.BussinessLayer",
-      "projectPath": "D:\\Visual Projects\\UTM\\PAD\\Lab2\\TransactionService\\Account.BussinessLayer\\Account.BussinessLayer.csproj",
+      "projectPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2\\Services\\TransactionService\\Account.BussinessLayer\\Account.BussinessLayer.csproj",
       "packagesPath": "C:\\Users\\Artyrik\\.nuget\\packages\\",
-      "outputPath": "D:\\Visual Projects\\UTM\\PAD\\Lab2\\TransactionService\\Account.BussinessLayer\\obj\\",
+      "outputPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2\\Services\\TransactionService\\Account.BussinessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

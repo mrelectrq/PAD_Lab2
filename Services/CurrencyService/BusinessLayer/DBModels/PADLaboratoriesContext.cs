@@ -23,6 +23,7 @@ namespace BusinessLayer.DBModels
         {
             if (!optionsBuilder.IsConfigured)
             {
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
                 optionsBuilder.UseSqlServer("Server=localhost;Database=PADLaboratories;Trusted_Connection=True;");
             }
         }
@@ -91,13 +92,16 @@ namespace BusinessLayer.DBModels
             {
                 entity.HasKey(e => e.TransactionId);
 
-                entity.Property(e => e.TransactionId)
-                    .HasColumnName("TransactionID")
-                    .ValueGeneratedNever();
+                entity.Property(e => e.TransactionId).HasColumnName("TransactionID");
 
                 entity.Property(e => e.AccountOwnerId).HasColumnName("AccountOwnerID");
 
                 entity.Property(e => e.AccountReceiverId).HasColumnName("AccountReceiverID");
+
+                entity.Property(e => e.Currency)
+                    .IsRequired()
+                    .HasMaxLength(20)
+                    .IsUnicode(false);
 
                 entity.Property(e => e.Date).HasColumnType("datetime");
 
