@@ -8043,11 +8043,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2\\Services\\CurrencyService\\CurrencyServiceTests\\CurrencyServiceTests.csproj",
+      "projectUniqueName": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\CurrencyService\\CurrencyServiceTests\\CurrencyServiceTests.csproj",
       "projectName": "CurrencyServiceTests",
-      "projectPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2\\Services\\CurrencyService\\CurrencyServiceTests\\CurrencyServiceTests.csproj",
+      "projectPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\CurrencyService\\CurrencyServiceTests\\CurrencyServiceTests.csproj",
       "packagesPath": "C:\\Users\\Artyrik\\.nuget\\packages\\",
-      "outputPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2\\Services\\CurrencyService\\CurrencyServiceTests\\obj\\",
+      "outputPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\CurrencyService\\CurrencyServiceTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -8066,8 +8066,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2\\Services\\CurrencyService\\CurrencyService\\CurrencyService.csproj": {
-              "projectPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2\\Services\\CurrencyService\\CurrencyService\\CurrencyService.csproj"
+            "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\CurrencyService\\CurrencyService\\CurrencyService.csproj": {
+              "projectPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\CurrencyService\\CurrencyService\\CurrencyService.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tNuqKSQ7gVdj0qu7gvH6lDDpTa3gCe0/gKWktlyRI1blL+GJs2COhuOvmn9Hl5a50yvLSwijpWP4ktpicRoerw==",
+  "dgSpecHash": "3yy24+qO4dBa3jqUoBEeBwvZfjYcG2MPod/VEgKkK9f6aAgxzphWspnPdYc9cb2xFVXWYEYKeATLE6RlQsbFUQ==",
   "success": true,
-  "projectFilePath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2\\Services\\AccountService\\AccountServiceTests\\AccountServiceTests.csproj",
+  "projectFilePath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\AccountService\\AccountServiceTests\\AccountServiceTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Artyrik\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\Artyrik\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",

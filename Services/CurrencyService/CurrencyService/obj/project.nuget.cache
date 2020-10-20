@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lZhgEZKer7OylKmo53B7Flx6qj0yRgOQM2rW1WKd3JM+q57LdmaZ4dZbxBzsIS95M+mVeGcF3iYjaklhGpqvXA==",
+  "dgSpecHash": "gAENhi0w28LWXV2yrItKDIlzQwTj3aIBbVzXnikCDfRZSOLR1yX65woxLht/VI7CpYtcZA1nz9Himv16h3gjzg==",
   "success": true,
-  "projectFilePath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2\\Services\\CurrencyService\\CurrencyService\\CurrencyService.csproj",
+  "projectFilePath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\CurrencyService\\CurrencyService\\CurrencyService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Artyrik\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Artyrik\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

@@ -5682,11 +5682,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2\\Services\\CurrencyService\\BusinessLayer\\BusinessLayer.csproj",
+      "projectUniqueName": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\CurrencyService\\BusinessLayer\\BusinessLayer.csproj",
       "projectName": "BusinessLayer",
-      "projectPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2\\Services\\CurrencyService\\BusinessLayer\\BusinessLayer.csproj",
+      "projectPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\CurrencyService\\BusinessLayer\\BusinessLayer.csproj",
       "packagesPath": "C:\\Users\\Artyrik\\.nuget\\packages\\",
-      "outputPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2\\Services\\CurrencyService\\BusinessLayer\\obj\\",
+      "outputPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\CurrencyService\\BusinessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

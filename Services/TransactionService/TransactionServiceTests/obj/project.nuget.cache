@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t5Ke5x5G05JnIWdkObN8PlXYCxhBct4stkxPsvOtfCygoBohPZkXBEdiIe7fIxmdNAQdyWrFu1asCXe01cwP5g==",
+  "dgSpecHash": "vTh9RStoC3I5PhannJ1dSxyA+iLpgzNHnPuUD7bFZGzGvW4v51CLQkQT74YrnkLy6SkVucVG169MBrbXjCIc0g==",
   "success": true,
-  "projectFilePath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2\\Services\\TransactionService\\TransactionServiceTests\\TransactionServiceTests.csproj",
+  "projectFilePath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\TransactionService\\TransactionServiceTests\\TransactionServiceTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Artyrik\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\Artyrik\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

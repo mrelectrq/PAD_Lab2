@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "StwcbhfmSZj0dKMcc5cUyWv7CRFiRruwo+8Y2jAHCU6FPj8TwjKgYIbP5x42n37bylhAxyP9HU5iPAfkSnJ2wg==",
+  "dgSpecHash": "cz5MHcrd6SKL/+2kjOvb0kJpkIkQik/iQW516xeykgsLVtF80qhPgCD8ROKwHMgH+hz2ny5yMNuMr7G1KCHEfw==",
   "success": true,
-  "projectFilePath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2\\Services\\TransactionService\\TransactionService\\TransactionService.csproj",
+  "projectFilePath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\TransactionService\\TransactionService\\TransactionService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Artyrik\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Artyrik\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

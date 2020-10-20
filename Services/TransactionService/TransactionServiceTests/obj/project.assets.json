@@ -8101,11 +8101,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2\\Services\\TransactionService\\TransactionServiceTests\\TransactionServiceTests.csproj",
+      "projectUniqueName": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\TransactionService\\TransactionServiceTests\\TransactionServiceTests.csproj",
       "projectName": "TransactionServiceTests",
-      "projectPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2\\Services\\TransactionService\\TransactionServiceTests\\TransactionServiceTests.csproj",
+      "projectPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\TransactionService\\TransactionServiceTests\\TransactionServiceTests.csproj",
       "packagesPath": "C:\\Users\\Artyrik\\.nuget\\packages\\",
-      "outputPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2\\Services\\TransactionService\\TransactionServiceTests\\obj\\",
+      "outputPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\TransactionService\\TransactionServiceTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -8124,8 +8124,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2\\Services\\TransactionService\\TransactionService\\TransactionService.csproj": {
-              "projectPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2\\Services\\TransactionService\\TransactionService\\TransactionService.csproj"
+            "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\TransactionService\\TransactionService\\TransactionService.csproj": {
+              "projectPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\TransactionService\\TransactionService\\TransactionService.csproj"
             }
           }
         }

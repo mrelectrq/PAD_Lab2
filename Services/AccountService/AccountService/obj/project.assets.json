@@ -5630,11 +5630,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2\\Services\\AccountService\\AccountService\\AccountService.csproj",
+      "projectUniqueName": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\AccountService\\AccountService\\AccountService.csproj",
       "projectName": "AccountService",
-      "projectPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2\\Services\\AccountService\\AccountService\\AccountService.csproj",
+      "projectPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\AccountService\\AccountService\\AccountService.csproj",
       "packagesPath": "C:\\Users\\Artyrik\\.nuget\\packages\\",
-      "outputPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2\\Services\\AccountService\\AccountService\\obj\\",
+      "outputPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\AccountService\\AccountService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5653,8 +5653,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2\\Services\\AccountService\\BusinessLayer\\BusinessLayer.csproj": {
-              "projectPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2\\Services\\AccountService\\BusinessLayer\\BusinessLayer.csproj"
+            "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\AccountService\\BusinessLayer\\BusinessLayer.csproj": {
+              "projectPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\AccountService\\BusinessLayer\\BusinessLayer.csproj"
             }
           }
         }

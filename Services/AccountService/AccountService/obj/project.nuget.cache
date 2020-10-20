@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PbKhB6Vaswvew/rWXxJMCRkJuOYpVVz6TaEzFAv036Bf8lddw2gZvzy/i5sghMzL5wkaXqG+X5qN2m/tFEJYcg==",
+  "dgSpecHash": "MMmurNtmx7hrhGU11b1V3a2w3b8Toyp6NW8Za3UWo52H94SAz44HWTZ8k+QmbG5i8lYhnVG4qGbRm5QI8YZn2w==",
   "success": true,
-  "projectFilePath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2\\Services\\AccountService\\AccountService\\AccountService.csproj",
+  "projectFilePath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\AccountService\\AccountService\\AccountService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Artyrik\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Artyrik\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
