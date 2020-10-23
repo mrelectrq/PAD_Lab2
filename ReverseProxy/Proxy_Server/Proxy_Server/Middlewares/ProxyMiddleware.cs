@@ -3,6 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Proxy_Server.Interfaces;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
@@ -31,9 +32,11 @@ namespace Proxy_Server.Middlewares
 
         private Uri BuildUri(HttpRequest request)
         {
-            var uri = request.Path;
 
+            var server = _storage.GetServer();
 
+            var uri = new Uri(server.Location+request.Path);
+            return uri;
         }
     }
 }
