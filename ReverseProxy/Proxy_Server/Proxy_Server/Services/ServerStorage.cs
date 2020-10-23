@@ -11,7 +11,7 @@ namespace Proxy_Server.Services
     {
         private readonly IConfiguration _config;
         private Dictionary<string, Server> storage;
-        public ServerStorage(IConfiguration configuration)
+        public ServerStorage(IConfiguration configuration, IServiceProvider _serviceProvider)
         {
             _config = configuration;
             storage = new Dictionary<string, Server>();
@@ -21,13 +21,20 @@ namespace Proxy_Server.Services
         public Server GetServer()
         {
 
-
-            return null;
+            // need to implement something ballance
+           var selected = storage.FirstOrDefault(m => m.Key == "MN00001");
+            return selected.Value;
         }
 
         private void ParseServerList()
         {
-            
+            List<Server> serverlist = new List<Server>();
+            _config.GetSection("servers").Bind(serverlist);
+
+            foreach(var item in serverlist)
+            {
+                storage.Add(item.ID, item);
+            }
         }
     }
 }

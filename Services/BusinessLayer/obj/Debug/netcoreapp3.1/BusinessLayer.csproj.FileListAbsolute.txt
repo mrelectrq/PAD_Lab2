@@ -10,3 +10,15 @@ D:\Visual Projects\UTM\PAD\PAD_Lab2.1\Services\BusinessLayer\obj\Debug\netcoreap
 D:\Visual Projects\UTM\PAD\PAD_Lab2.1\Services\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.dll
 D:\Visual Projects\UTM\PAD\PAD_Lab2.1\Services\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.pdb
 D:\Visual Projects\UTM\PAD\PAD_Lab2.1\Services\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.genruntimeconfig.cache
+D:\Univer\ANUL4\PAD\Laborator2\PAD_Lab2\Services\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.deps.json
+D:\Univer\ANUL4\PAD\Laborator2\PAD_Lab2\Services\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.runtimeconfig.json
+D:\Univer\ANUL4\PAD\Laborator2\PAD_Lab2\Services\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.runtimeconfig.dev.json
+D:\Univer\ANUL4\PAD\Laborator2\PAD_Lab2\Services\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.dll
+D:\Univer\ANUL4\PAD\Laborator2\PAD_Lab2\Services\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.pdb
+D:\Univer\ANUL4\PAD\Laborator2\PAD_Lab2\Services\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.csprojAssemblyReference.cache
+D:\Univer\ANUL4\PAD\Laborator2\PAD_Lab2\Services\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.AssemblyInfoInputs.cache
+D:\Univer\ANUL4\PAD\Laborator2\PAD_Lab2\Services\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.AssemblyInfo.cs
+D:\Univer\ANUL4\PAD\Laborator2\PAD_Lab2\Services\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.csproj.CoreCompileInputs.cache
+D:\Univer\ANUL4\PAD\Laborator2\PAD_Lab2\Services\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.dll
+D:\Univer\ANUL4\PAD\Laborator2\PAD_Lab2\Services\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.pdb
+D:\Univer\ANUL4\PAD\Laborator2\PAD_Lab2\Services\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.genruntimeconfig.cache
