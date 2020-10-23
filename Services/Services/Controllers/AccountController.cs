@@ -20,13 +20,6 @@ namespace Services.Controllers
             var _bl = new BusinessManager();
             services = _bl.Services();
         }
-      
-        [HttpPost]
-        public ActionResult<TransactionResponse> PostTransaction([FromBody] TransactionMessage message)
-        {
-            var response = services.GetTransaction(message);
-            return response.Result;
-        }
 
         [HttpPost]
         public ActionResult<AccountResponse> PostAccount([FromBody] AccountMessage message)
@@ -35,12 +28,6 @@ namespace Services.Controllers
             return response.Result;
         }
 
-        [HttpGet]
-        public ActionResult<CurrencyResponse> GetCurrency()
-        {
-            var response = services.GetCurrency();
-            return response.Result;
-        }
 
     }
 }
