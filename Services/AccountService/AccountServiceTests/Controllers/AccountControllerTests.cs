@@ -23,7 +23,7 @@ namespace AccountService.Controllers.Tests
 
 
             var data = new AccountMessage();
-            data.AccountId = 1;
+            data.AccountId = "1";
             data.Balance = 2;
             data.FirstName = "Ionas";
             data.LastName = "cristi";

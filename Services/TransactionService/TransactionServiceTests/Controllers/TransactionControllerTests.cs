@@ -17,8 +17,8 @@ namespace TransactionService.Controllers.Tests
 
             var transaction = new TransactionMessage
             {
-                AccountOwnerId = 1,
-                AccountReceiverId = 3,
+                AccountOwnerId = "0",
+                AccountReceiverId = "0",
                 Currency = "EUR",
                 Amount=1000
             };

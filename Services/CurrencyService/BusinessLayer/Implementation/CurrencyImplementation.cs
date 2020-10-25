@@ -15,10 +15,15 @@ namespace BusinessLayer.Implementation
         {
             try
             {
-                using(var db = new PADLaboratoriesContext())
-                {
-                    var sellCurrency = db.Currency.FirstOrDefault(x => x.Type == "Sell");
-                    var buyCurrency = db.Currency.FirstOrDefault(x => x.Type == "Buy");
+                MongoCRUD context = new MongoCRUD("PADLaboratories");
+
+               
+                //context.InsertCurrency(data);
+               // context.InsertCurrency(data1);
+
+                var sellCurrency =context.GetCurrency("SELL");
+               var buyCurrency = context.GetCurrency("BUY");
+
                     if(sellCurrency==null && buyCurrency==null)
                     {
                         return new CurrencyResponse
@@ -57,7 +62,7 @@ namespace BusinessLayer.Implementation
                             Message = "Currency was updated successfully!"
                         };
 
-                    }
+                    
                 }
                 
             }
