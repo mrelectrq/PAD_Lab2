@@ -6,8 +6,8 @@ namespace BusinessLayer.Models
 {
     public class TransactionMessage
     {
-        public int AccountOwnerId { get; set; }
-        public int AccountReceiverId { get; set; }
+        public string AccountOwnerId { get; set; }
+        public string AccountReceiverId { get; set; }
         public string Currency { get; set; }
         public double Amount { get; set; }
 

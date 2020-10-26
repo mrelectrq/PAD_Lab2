@@ -1,17 +1,14 @@
-﻿using System;
+﻿using MongoDB.Bson.Serialization.Attributes;
+using System;
 using System.Collections.Generic;
+using System.Text;
 
 namespace BusinessLayer.DBModels
 {
-    public partial class Accounts
+    public class Accounts
     {
-        public Accounts()
-        {
-            TransactionsAccountOwner = new HashSet<Transactions>();
-            TransactionsAccountReceiver = new HashSet<Transactions>();
-        }
-
-        public int AccountId { get; set; }
+        [BsonId]
+        public string AccountId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public double Balance { get; set; }
@@ -19,8 +16,5 @@ namespace BusinessLayer.DBModels
         public string Phone { get; set; }
         public string Credits { get; set; }
         public string Description { get; set; }
-
-        public virtual ICollection<Transactions> TransactionsAccountOwner { get; set; }
-        public virtual ICollection<Transactions> TransactionsAccountReceiver { get; set; }
     }
 }

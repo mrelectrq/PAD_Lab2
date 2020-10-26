@@ -10,3 +10,15 @@ D:\Visual Projects\UTM\PAD\PAD_Lab2\Services\TransactionService\BusinessLayer\bi
 D:\Visual Projects\UTM\PAD\PAD_Lab2\Services\TransactionService\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.csproj.CoreCompileInputs.cache
 D:\Visual Projects\UTM\PAD\PAD_Lab2\Services\TransactionService\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.dll
 D:\Visual Projects\UTM\PAD\PAD_Lab2\Services\TransactionService\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.pdb
+D:\Visual Projects\UTM\PAD\PAD_Lab2.2\Services\TransactionService\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.deps.json
+D:\Visual Projects\UTM\PAD\PAD_Lab2.2\Services\TransactionService\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.runtimeconfig.json
+D:\Visual Projects\UTM\PAD\PAD_Lab2.2\Services\TransactionService\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.runtimeconfig.dev.json
+D:\Visual Projects\UTM\PAD\PAD_Lab2.2\Services\TransactionService\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.dll
+D:\Visual Projects\UTM\PAD\PAD_Lab2.2\Services\TransactionService\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.pdb
+D:\Visual Projects\UTM\PAD\PAD_Lab2.2\Services\TransactionService\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.AssemblyInfoInputs.cache
+D:\Visual Projects\UTM\PAD\PAD_Lab2.2\Services\TransactionService\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.AssemblyInfo.cs
+D:\Visual Projects\UTM\PAD\PAD_Lab2.2\Services\TransactionService\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.dll
+D:\Visual Projects\UTM\PAD\PAD_Lab2.2\Services\TransactionService\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.pdb
+D:\Visual Projects\UTM\PAD\PAD_Lab2.2\Services\TransactionService\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.genruntimeconfig.cache
+D:\Visual Projects\UTM\PAD\PAD_Lab2.2\Services\TransactionService\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.csproj.CoreCompileInputs.cache
+D:\Visual Projects\UTM\PAD\PAD_Lab2.2\Services\TransactionService\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.csprojAssemblyReference.cache

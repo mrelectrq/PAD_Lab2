@@ -14,37 +14,26 @@ namespace BusinessLayer.Implementations
         {
             try
             {
-                using (var db = new PADLaboratoriesContext())
-                {
-                    var ownercard = db.Accounts.Find(data.AccountOwnerId);
-                    ownercard.Balance -= data.Amount;
-                    db.Accounts.Update(ownercard);
 
-
-                    var receivercard = db.Accounts.Find(data.AccountReceiverId);
-                    receivercard.Balance += data.Amount;
-                    db.Accounts.Update(receivercard);
-
-
-                    var transaction = new Transactions
-                    {
-                        AccountOwner = ownercard,
-                        AccountReceiver = receivercard,
-                        Currency = data.Currency,
-                        Amount = data.Amount,
-                        Date = DateTime.Now
-                    };
-                    db.Transactions.Add(transaction);
-
-                    db.SaveChanges();
+                MongoCRUD context = new MongoCRUD("PADLaboratories");
+                var response = context.InsertTransaction(data);
+                if (response)
                     return new TransactionResponse
                     {
                         Status = true,
-                        Message="Transaction has been successfully processed."
+                        Message = "Transaction has been successfully processed."
+                    };
+
+                else
+                {
+                    return new TransactionResponse
+                    {
+                        Status = false,
+                        Message = "Transaction failed."
                     };
                 }
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 return new TransactionResponse
                 {
