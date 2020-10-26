@@ -8,6 +8,6 @@ namespace Proxy_Server.Interfaces
 {
    interface IServerStorage
     {
-        public Server GetServer();
+        public Server GetServer(string service);   
     }
 }
