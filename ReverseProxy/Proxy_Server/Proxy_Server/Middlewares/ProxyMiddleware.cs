@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 using Proxy_Server.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -15,9 +16,11 @@ namespace Proxy_Server.Middlewares
         private static HttpClient _httpClient = new HttpClient();
         private readonly RequestDelegate _nextMiddleware;
         private readonly IServerStorage _storage;
-        public ProxyMiddleware(RequestDelegate next, IServiceProvider serviceScope)
+        private readonly ILogger _logger;
+        public ProxyMiddleware(RequestDelegate next, IServiceProvider serviceScope,ILogger<ProxyMiddleware> logger)
         {
             _storage = serviceScope.GetRequiredService<IServerStorage>();
+            _logger = logger;
             _nextMiddleware = next;
         }
 
@@ -25,32 +28,28 @@ namespace Proxy_Server.Middlewares
         {   
            var request_destination = BuildUri(context.Request);
 
-            var message = FormateMessage(context, request_destination);
-            try
-            {
-
-                using (var responseMessage = await _httpClient.SendAsync(message, HttpCompletionOption.ResponseContentRead))
-                {
-                    // context.Response.StatusCode = (int)responseMessage.StatusCode;
-                    ConcatenateResponseToContext(context, responseMessage);
-
-                }
-            }
-            catch(Exception e)
-            {
-                Console.WriteLine(e);
-            }
-            
-
+            var message = FormateMessage(context);
+            await request_destination;
+            message.RequestUri = request_destination.Result;
+            //try
+            //{
+            //    using (var responseMessage = await _httpClient.SendAsync(message, HttpCompletionOption.ResponseContentRead))
+            //    {
+            //        ConcatenateResponseToContext(context, responseMessage);
+            //    }
+            //}
+            //catch(Exception e)
+            //{
+            //    Console.WriteLine(e);
+            //}
             await _nextMiddleware(context);
         }
 
-        private HttpRequestMessage FormateMessage(HttpContext context, Uri uri)
+        private HttpRequestMessage FormateMessage(HttpContext context)
         {
             var message = new HttpRequestMessage()
             {
                 Method = GetRequestMethod(context.Request),
-                RequestUri = uri,
                 Content= new StreamContent(context.Request.Body)
             };
 
@@ -58,7 +57,6 @@ namespace Proxy_Server.Middlewares
             {
                 message.Content.Headers.TryAddWithoutValidation(item.Key, item.Value.ToArray());
             }
-
             return message;
         }
 
@@ -68,13 +66,13 @@ namespace Proxy_Server.Middlewares
             return new HttpMethod(method);
         }
 
-        private Uri BuildUri(HttpRequest request)
+        private Task<Uri> BuildUri(HttpRequest request)
         {
+            var server = _storage.GetServer(request.Path);
 
-            var server = _storage.GetServer();
-
+            _logger.LogInformation("Selected server: \r\n" + server.ID + "\r\n for Request:");
             var uri = new Uri(server.Location+request.Path);
-            return uri;
+            return Task.FromResult(uri);
         }
 
         private void ConcatenateResponseToContext(HttpContext context, HttpResponseMessage message)

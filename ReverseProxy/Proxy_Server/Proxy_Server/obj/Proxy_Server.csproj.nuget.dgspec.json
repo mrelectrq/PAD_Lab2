@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\ReverseProxy\\Proxy_Server\\Proxy_Server\\Proxy_Server.csproj": {}
+    "D:\\univer\\anul4\\pad\\laborator2\\pad_lab2\\reverseproxy\\proxy_server\\proxy_server\\Proxy_Server.csproj": {}
   },
   "projects": {
-    "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\ReverseProxy\\Proxy_Server\\Proxy_Server\\Proxy_Server.csproj": {
+    "D:\\univer\\anul4\\pad\\laborator2\\pad_lab2\\reverseproxy\\proxy_server\\proxy_server\\Proxy_Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\ReverseProxy\\Proxy_Server\\Proxy_Server\\Proxy_Server.csproj",
+        "projectUniqueName": "D:\\univer\\anul4\\pad\\laborator2\\pad_lab2\\reverseproxy\\proxy_server\\proxy_server\\Proxy_Server.csproj",
         "projectName": "Proxy_Server",
-        "projectPath": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\ReverseProxy\\Proxy_Server\\Proxy_Server\\Proxy_Server.csproj",
+        "projectPath": "D:\\univer\\anul4\\pad\\laborator2\\pad_lab2\\reverseproxy\\proxy_server\\proxy_server\\Proxy_Server.csproj",
         "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\ReverseProxy\\Proxy_Server\\Proxy_Server\\obj\\",
+        "outputPath": "D:\\univer\\anul4\\pad\\laborator2\\pad_lab2\\reverseproxy\\proxy_server\\proxy_server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
