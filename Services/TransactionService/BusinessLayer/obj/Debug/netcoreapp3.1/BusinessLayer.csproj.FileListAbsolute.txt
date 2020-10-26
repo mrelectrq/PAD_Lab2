@@ -21,3 +21,4 @@ D:\Visual Projects\UTM\PAD\PAD_Lab2.2\Services\TransactionService\BusinessLayer\
 D:\Visual Projects\UTM\PAD\PAD_Lab2.2\Services\TransactionService\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.pdb
 D:\Visual Projects\UTM\PAD\PAD_Lab2.2\Services\TransactionService\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.genruntimeconfig.cache
 D:\Visual Projects\UTM\PAD\PAD_Lab2.2\Services\TransactionService\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.csproj.CoreCompileInputs.cache
+D:\Visual Projects\UTM\PAD\PAD_Lab2.2\Services\TransactionService\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.csprojAssemblyReference.cache

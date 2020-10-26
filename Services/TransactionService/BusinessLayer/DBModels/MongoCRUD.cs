@@ -13,7 +13,7 @@ namespace BusinessLayer.DBModels
         private readonly IMongoCollection<Accounts> collectionAccount;
         public MongoCRUD(string database)
         {
-            var client = new MongoClient("mongodb://localhost:27017");
+            var client = new MongoClient("mongodb://localhost:40000");
             db = client.GetDatabase(database);
             collectionTrans = db.GetCollection<Transactions>("Transactions");
             collectionAccount = db.GetCollection<Accounts>("Accounts");
