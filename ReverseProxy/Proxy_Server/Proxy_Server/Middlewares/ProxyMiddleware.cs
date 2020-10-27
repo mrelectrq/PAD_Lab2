@@ -31,17 +31,18 @@ namespace Proxy_Server.Middlewares
             var message = FormateMessage(context);
             await request_destination;
             message.RequestUri = request_destination.Result;
-            //try
-            //{
-            //    using (var responseMessage = await _httpClient.SendAsync(message, HttpCompletionOption.ResponseContentRead))
-            //    {
-            //        ConcatenateResponseToContext(context, responseMessage);
-            //    }
-            //}
-            //catch(Exception e)
-            //{
-            //    Console.WriteLine(e);
-            //}
+            try
+            {
+                using (var responseMessage = await _httpClient.SendAsync(message, HttpCompletionOption.ResponseContentRead))
+                {
+                    ConcatenateResponseToContext(context, responseMessage);
+                    await responseMessage.Content.CopyToAsync(context.Response.Body);
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
             await _nextMiddleware(context);
         }
 

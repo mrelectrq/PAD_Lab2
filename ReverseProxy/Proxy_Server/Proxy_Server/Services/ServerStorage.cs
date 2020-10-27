@@ -33,9 +33,11 @@ namespace Proxy_Server.Services
                 .Select(m => m.Value)
                 .FirstOrDefault();
 
-
-            // need to implement something ballance
-            // need to implement weighted RoundRobin 
+            if(branch==null)
+            {
+                branch = _load_balancing.Where(m => m.Key == "").Select(m => m.Value)
+                    .FirstOrDefault();
+            }
             var selected = branch.GetServer();
             return selected;
         }
