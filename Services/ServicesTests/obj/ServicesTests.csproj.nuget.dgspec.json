@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\ServicesTests\\ServicesTests.csproj": {}
+    "D:\\Visual Projects\\PAD_Lab2\\Services\\ServicesTests\\ServicesTests.csproj": {}
   },
   "projects": {
-    "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\BusinessLayer\\BusinessLayer.csproj": {
+    "D:\\Visual Projects\\PAD_Lab2\\Services\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "D:\\Visual Projects\\PAD_Lab2\\Services\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\BusinessLayer\\BusinessLayer.csproj",
-        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\BusinessLayer\\obj\\",
+        "projectPath": "D:\\Visual Projects\\PAD_Lab2\\Services\\BusinessLayer\\BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\Artyrik\\.nuget\\packages\\",
+        "outputPath": "D:\\Visual Projects\\PAD_Lab2\\Services\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Artyrik\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -68,21 +71,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\ServicesTests\\ServicesTests.csproj": {
+    "D:\\Visual Projects\\PAD_Lab2\\Services\\ServicesTests\\ServicesTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\ServicesTests\\ServicesTests.csproj",
+        "projectUniqueName": "D:\\Visual Projects\\PAD_Lab2\\Services\\ServicesTests\\ServicesTests.csproj",
         "projectName": "ServicesTests",
-        "projectPath": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\ServicesTests\\ServicesTests.csproj",
-        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\ServicesTests\\obj\\",
+        "projectPath": "D:\\Visual Projects\\PAD_Lab2\\Services\\ServicesTests\\ServicesTests.csproj",
+        "packagesPath": "C:\\Users\\Artyrik\\.nuget\\packages\\",
+        "outputPath": "D:\\Visual Projects\\PAD_Lab2\\Services\\ServicesTests\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Artyrik\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -95,8 +101,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\Services\\Services.csproj": {
-                "projectPath": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\Services\\Services.csproj"
+              "D:\\Visual Projects\\PAD_Lab2\\Services\\Services\\Services.csproj": {
+                "projectPath": "D:\\Visual Projects\\PAD_Lab2\\Services\\Services\\Services.csproj"
               }
             }
           }
@@ -145,21 +151,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\Services\\Services.csproj": {
+    "D:\\Visual Projects\\PAD_Lab2\\Services\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\Services\\Services.csproj",
+        "projectUniqueName": "D:\\Visual Projects\\PAD_Lab2\\Services\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\Services\\Services.csproj",
-        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\Services\\obj\\",
+        "projectPath": "D:\\Visual Projects\\PAD_Lab2\\Services\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\Artyrik\\.nuget\\packages\\",
+        "outputPath": "D:\\Visual Projects\\PAD_Lab2\\Services\\Services\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Artyrik\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -172,8 +181,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\BusinessLayer\\BusinessLayer.csproj"
+              "D:\\Visual Projects\\PAD_Lab2\\Services\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "D:\\Visual Projects\\PAD_Lab2\\Services\\BusinessLayer\\BusinessLayer.csproj"
               }
             }
           }
@@ -204,7 +213,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
