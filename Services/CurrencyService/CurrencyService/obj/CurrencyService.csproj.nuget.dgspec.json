@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\CurrencyService\\CurrencyService\\CurrencyService.csproj": {}
+    "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\CurrencyService\\CurrencyService\\CurrencyService.csproj": {}
   },
   "projects": {
-    "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\CurrencyService\\BusinessLayer\\BusinessLayer.csproj": {
+    "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\CurrencyService\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\CurrencyService\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\CurrencyService\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\CurrencyService\\BusinessLayer\\BusinessLayer.csproj",
-        "packagesPath": "C:\\Users\\Artyrik\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\CurrencyService\\BusinessLayer\\obj\\",
+        "projectPath": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\CurrencyService\\BusinessLayer\\BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
+        "outputPath": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\CurrencyService\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Artyrik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -77,24 +74,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\CurrencyService\\CurrencyService\\CurrencyService.csproj": {
+    "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\CurrencyService\\CurrencyService\\CurrencyService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\CurrencyService\\CurrencyService\\CurrencyService.csproj",
+        "projectUniqueName": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\CurrencyService\\CurrencyService\\CurrencyService.csproj",
         "projectName": "CurrencyService",
-        "projectPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\CurrencyService\\CurrencyService\\CurrencyService.csproj",
-        "packagesPath": "C:\\Users\\Artyrik\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\CurrencyService\\CurrencyService\\obj\\",
+        "projectPath": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\CurrencyService\\CurrencyService\\CurrencyService.csproj",
+        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
+        "outputPath": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\CurrencyService\\CurrencyService\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Artyrik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -107,8 +101,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\CurrencyService\\BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\CurrencyService\\BusinessLayer\\BusinessLayer.csproj"
+              "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\CurrencyService\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\CurrencyService\\BusinessLayer\\BusinessLayer.csproj"
               }
             }
           }
@@ -139,7 +133,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

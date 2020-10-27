@@ -19,7 +19,12 @@ namespace Proxy_Server
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddStackExchangeRedisCache(opt =>
+            {
+                opt.Configuration = "localhost:6379";
+            });
             services.AddSingleton<IServerStorage, ServerStorage>();
+            services.AddTransient<ICacheClient, CacheClient>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -31,16 +36,9 @@ namespace Proxy_Server
             }
 
             app.UseRouting();
-
-
+            
+          
             app.UseMiddleware<ProxyMiddleware>();
-            //app.UseEndpoints(endpoints =>
-            //{
-            //    endpoints.MapGet("/", async context =>
-            //    {
-            //        await context.Response.WriteAsync("Hello World!");
-            //    });
-            //});
         }
     }
 }

@@ -26,7 +26,7 @@ namespace Proxy_Server.Services
         {
             Regex regex = new Regex(@"^[a-zA-Z\s]*");
 
-            var parsed = regex.Match(service.TrimStart('/')).Value;
+            var parsed = regex.Match(service).Value;
 
             var branch = _load_balancing
                 .Where(m => m.Key == parsed)
