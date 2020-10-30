@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\CurrencyService\\CurrencyService\\CurrencyService.csproj": {}
+    "D:\\univer\\anul4\\pad\\laborator2\\pad_lab2\\services\\currencyservice\\currencyservice\\CurrencyService.csproj": {}
   },
   "projects": {
-    "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\CurrencyService\\BusinessLayer\\BusinessLayer.csproj": {
+    "D:\\univer\\anul4\\pad\\laborator2\\pad_lab2\\services\\currencyservice\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\CurrencyService\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "D:\\univer\\anul4\\pad\\laborator2\\pad_lab2\\services\\currencyservice\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\CurrencyService\\BusinessLayer\\BusinessLayer.csproj",
+        "projectPath": "D:\\univer\\anul4\\pad\\laborator2\\pad_lab2\\services\\currencyservice\\BusinessLayer\\BusinessLayer.csproj",
         "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\CurrencyService\\BusinessLayer\\obj\\",
+        "outputPath": "D:\\univer\\anul4\\pad\\laborator2\\pad_lab2\\services\\currencyservice\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -78,14 +78,14 @@
         }
       }
     },
-    "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\CurrencyService\\CurrencyService\\CurrencyService.csproj": {
+    "D:\\univer\\anul4\\pad\\laborator2\\pad_lab2\\services\\currencyservice\\currencyservice\\CurrencyService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\CurrencyService\\CurrencyService\\CurrencyService.csproj",
+        "projectUniqueName": "D:\\univer\\anul4\\pad\\laborator2\\pad_lab2\\services\\currencyservice\\currencyservice\\CurrencyService.csproj",
         "projectName": "CurrencyService",
-        "projectPath": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\CurrencyService\\CurrencyService\\CurrencyService.csproj",
+        "projectPath": "D:\\univer\\anul4\\pad\\laborator2\\pad_lab2\\services\\currencyservice\\currencyservice\\CurrencyService.csproj",
         "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\CurrencyService\\CurrencyService\\obj\\",
+        "outputPath": "D:\\univer\\anul4\\pad\\laborator2\\pad_lab2\\services\\currencyservice\\currencyservice\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -101,8 +101,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\CurrencyService\\BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\CurrencyService\\BusinessLayer\\BusinessLayer.csproj"
+              "D:\\univer\\anul4\\pad\\laborator2\\pad_lab2\\services\\currencyservice\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "D:\\univer\\anul4\\pad\\laborator2\\pad_lab2\\services\\currencyservice\\BusinessLayer\\BusinessLayer.csproj"
               }
             }
           }

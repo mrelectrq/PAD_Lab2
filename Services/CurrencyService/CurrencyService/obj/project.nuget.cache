@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pIF7mLoMUIUc02krR+kZIxp4RtuMB5TSg2EagQqDlIw3YV5cak41p6hoH3gMGd97pPqvCPK/S+F7BB/MTikB6Q==",
+  "dgSpecHash": "5/vTJjqNtnre412XYnX+N4LydM9FcXYxsnzJgTLPuxboxRSU1BHn/dkR+oOoJOi0tcz4jgmjSk0lO9bVFR+WCw==",
   "success": true,
-  "projectFilePath": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\CurrencyService\\CurrencyService\\CurrencyService.csproj",
+  "projectFilePath": "D:\\univer\\anul4\\pad\\laborator2\\pad_lab2\\services\\currencyservice\\currencyservice\\CurrencyService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alex\\.nuget\\packages\\dnsclient\\1.3.1\\dnsclient.1.3.1.nupkg.sha512",
     "C:\\Users\\Alex\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

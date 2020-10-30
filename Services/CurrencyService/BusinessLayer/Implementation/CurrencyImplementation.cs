@@ -17,9 +17,28 @@ namespace BusinessLayer.Implementation
             {
                 MongoCRUD context = new MongoCRUD("PADLaboratories");
 
-               
-                //context.InsertCurrency(data);
-               // context.InsertCurrency(data1);
+                var data = new Currency
+                {
+                    Eur = 1,
+                    Ron = 2,
+                    TimeCurrency = DateTime.Now,
+                    Rub = 3,
+                    Type = "SELL",
+                    Uah = 13,
+                    Usd = 4
+                };
+                var data1 = new Currency
+                {
+                    Eur = 1,
+                    Ron = 2,
+                    TimeCurrency = DateTime.Now,
+                    Rub = 3,
+                    Type = "BUY",
+                    Uah = 13,
+                    Usd = 4
+                };
+                context.InsertCurrency(data);
+                context.InsertCurrency(data1);
 
                 var sellCurrency =context.GetCurrency("SELL");
                var buyCurrency = context.GetCurrency("BUY");
