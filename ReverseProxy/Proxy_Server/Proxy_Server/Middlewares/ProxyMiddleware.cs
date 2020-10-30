@@ -54,36 +54,38 @@ namespace Proxy_Server.Middlewares
         private void DoProxyHandling(HttpContext context)
         {
 
-            context.Response.Body.WriteAsync(Encoding.UTF8.GetBytes("Dolaarii"));
-            context.Response.StatusCode = 200;
-            if (context.Request.Method == "GET")
+           // context.Response.Body.WriteAsync(Encoding.UTF8.GetBytes("Dolaarii"));
+           // context.Response.StatusCode = 200;
+
+            var request_destination = BuildUri(context.Request);
+            var message = FormateMessage(context);
+            message.RequestUri = request_destination.Result;
+
+
+            try
             {
-                var status =_cacheClient.IsCacheable(context.Request.Path);
-                if(status)
+                using (var responseMessage = _httpClient.SendAsync(message, HttpCompletionOption.ResponseContentRead).Result)
                 {
-                    _cacheClient.SetCache(context.Request.Path,
-                        "Dolariii");
+                    ConcatenateResponseToContext(context, responseMessage);
+                    responseMessage.Content.CopyToAsync(context.Response.Body);
+
+                    if (context.Request.Method == "GET")
+                    {
+                        var status = _cacheClient.IsCacheable(context.Request.Path);
+                        if (status)
+                        {
+                            using(StreamReader r = new StreamReader(context.Response.Body,Encoding.UTF8,true,1024,true))
+                            _cacheClient.SetCache(context.Request.Path,
+                                 r.ReadToEnd());
+                        }
+                    }
+
                 }
             }
-
-            //var request_destination = BuildUri(context.Request);
-            //var message = FormateMessage(context);        
-            //message.RequestUri = request_destination.Result;
-
-
-            //try
-            //{
-            //    using (var responseMessage =  _httpClient.SendAsync(message, HttpCompletionOption.ResponseContentRead).Result)
-            //    {
-            //        ConcatenateResponseToContext(context, responseMessage);
-            //        responseMessage.Content.CopyToAsync(context.Response.Body);
-
-            //    }
-            //}
-            //catch (Exception e)
-            //{
-            //    _logger.LogError(e.Message);
-            //}
+            catch (Exception e)
+            {
+                _logger.LogError(e.Message);
+            }
         }
 
         private HttpRequestMessage FormateMessage(HttpContext context)

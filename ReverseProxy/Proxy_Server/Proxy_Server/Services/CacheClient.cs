@@ -15,6 +15,7 @@ namespace Proxy_Server.Services
         private IDistributedCache _cache;
         public bool GetDataByRequest(string request_path, ref HttpContext context)
         {
+           // _cache.Remove("currency");
             var body = _cache.GetAsync(request_path).Result;
             if (body == null)
             {
@@ -46,7 +47,7 @@ namespace Proxy_Server.Services
                 options.SetAbsoluteExpiration(DateTime.Now.AddMinutes(5));
                 options.SetSlidingExpiration(TimeSpan.FromMinutes(5));
             }
-
+           
             _cache.SetAsync(key, Encoding.UTF8.GetBytes(body), options);
         }
 
