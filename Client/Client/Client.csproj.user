@@ -7,13 +7,13 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="Views\Account.xaml.cs">
+    <Compile Update="Views\AccountView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\Currency.xaml.cs">
+    <Compile Update="Views\CurrencyView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\Transaction.xaml.cs">
+    <Compile Update="Views\TransactionView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -21,13 +21,13 @@
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\Account.xaml">
+    <Page Update="Views\AccountView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\Currency.xaml">
+    <Page Update="Views\CurrencyView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\Transaction.xaml">
+    <Page Update="Views\TransactionView.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
