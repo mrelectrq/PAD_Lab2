@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BusinessLayer;
 using BusinessLayer.Interfaces;
 using BusinessLayer.Models;
 using Microsoft.AspNetCore.Http;
@@ -14,7 +15,7 @@ namespace Services.Controllers
     public class CurrencyController : ControllerBase
     {
         IServices services;
-        public AccountController()
+        public CurrencyController()
         {
             var _bl = new BusinessManager();
             services = _bl.Services();

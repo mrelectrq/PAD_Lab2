@@ -18,3 +18,23 @@ D:\Univer\ANUL4\PAD\Laborator2\PAD_Lab2\ReverseProxy\Proxy_Server\Proxy_Server\o
 D:\Univer\ANUL4\PAD\Laborator2\PAD_Lab2\ReverseProxy\Proxy_Server\Proxy_Server\obj\Debug\netcoreapp3.1\Proxy_Server.dll
 D:\Univer\ANUL4\PAD\Laborator2\PAD_Lab2\ReverseProxy\Proxy_Server\Proxy_Server\obj\Debug\netcoreapp3.1\Proxy_Server.pdb
 D:\Univer\ANUL4\PAD\Laborator2\PAD_Lab2\ReverseProxy\Proxy_Server\Proxy_Server\obj\Debug\netcoreapp3.1\Proxy_Server.genruntimeconfig.cache
+D:\Visual Projects\UTM\PAD\1\Part1\PAD_Lab2\ReverseProxy\Proxy_Server\Proxy_Server\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Visual Projects\UTM\PAD\1\Part1\PAD_Lab2\ReverseProxy\Proxy_Server\Proxy_Server\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Visual Projects\UTM\PAD\1\Part1\PAD_Lab2\ReverseProxy\Proxy_Server\Proxy_Server\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Visual Projects\UTM\PAD\1\Part1\PAD_Lab2\ReverseProxy\Proxy_Server\Proxy_Server\bin\Debug\netcoreapp3.1\Proxy_Server.exe
+D:\Visual Projects\UTM\PAD\1\Part1\PAD_Lab2\ReverseProxy\Proxy_Server\Proxy_Server\bin\Debug\netcoreapp3.1\Proxy_Server.deps.json
+D:\Visual Projects\UTM\PAD\1\Part1\PAD_Lab2\ReverseProxy\Proxy_Server\Proxy_Server\bin\Debug\netcoreapp3.1\Proxy_Server.runtimeconfig.json
+D:\Visual Projects\UTM\PAD\1\Part1\PAD_Lab2\ReverseProxy\Proxy_Server\Proxy_Server\bin\Debug\netcoreapp3.1\Proxy_Server.runtimeconfig.dev.json
+D:\Visual Projects\UTM\PAD\1\Part1\PAD_Lab2\ReverseProxy\Proxy_Server\Proxy_Server\bin\Debug\netcoreapp3.1\Proxy_Server.dll
+D:\Visual Projects\UTM\PAD\1\Part1\PAD_Lab2\ReverseProxy\Proxy_Server\Proxy_Server\bin\Debug\netcoreapp3.1\Proxy_Server.pdb
+D:\Visual Projects\UTM\PAD\1\Part1\PAD_Lab2\ReverseProxy\Proxy_Server\Proxy_Server\obj\Debug\netcoreapp3.1\Proxy_Server.csprojAssemblyReference.cache
+D:\Visual Projects\UTM\PAD\1\Part1\PAD_Lab2\ReverseProxy\Proxy_Server\Proxy_Server\obj\Debug\netcoreapp3.1\Proxy_Server.AssemblyInfoInputs.cache
+D:\Visual Projects\UTM\PAD\1\Part1\PAD_Lab2\ReverseProxy\Proxy_Server\Proxy_Server\obj\Debug\netcoreapp3.1\Proxy_Server.AssemblyInfo.cs
+D:\Visual Projects\UTM\PAD\1\Part1\PAD_Lab2\ReverseProxy\Proxy_Server\Proxy_Server\obj\Debug\netcoreapp3.1\Proxy_Server.csproj.CoreCompileInputs.cache
+D:\Visual Projects\UTM\PAD\1\Part1\PAD_Lab2\ReverseProxy\Proxy_Server\Proxy_Server\obj\Debug\netcoreapp3.1\Proxy_Server.MvcApplicationPartsAssemblyInfo.cache
+D:\Visual Projects\UTM\PAD\1\Part1\PAD_Lab2\ReverseProxy\Proxy_Server\Proxy_Server\obj\Debug\netcoreapp3.1\Proxy_Server.RazorTargetAssemblyInfo.cache
+D:\Visual Projects\UTM\PAD\1\Part1\PAD_Lab2\ReverseProxy\Proxy_Server\Proxy_Server\obj\Debug\netcoreapp3.1\staticwebassets\Proxy_Server.StaticWebAssets.Manifest.cache
+D:\Visual Projects\UTM\PAD\1\Part1\PAD_Lab2\ReverseProxy\Proxy_Server\Proxy_Server\obj\Debug\netcoreapp3.1\staticwebassets\Proxy_Server.StaticWebAssets.xml
+D:\Visual Projects\UTM\PAD\1\Part1\PAD_Lab2\ReverseProxy\Proxy_Server\Proxy_Server\obj\Debug\netcoreapp3.1\Proxy_Server.dll
+D:\Visual Projects\UTM\PAD\1\Part1\PAD_Lab2\ReverseProxy\Proxy_Server\Proxy_Server\obj\Debug\netcoreapp3.1\Proxy_Server.pdb
+D:\Visual Projects\UTM\PAD\1\Part1\PAD_Lab2\ReverseProxy\Proxy_Server\Proxy_Server\obj\Debug\netcoreapp3.1\Proxy_Server.genruntimeconfig.cache

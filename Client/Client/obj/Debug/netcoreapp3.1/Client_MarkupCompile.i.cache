@@ -1,0 +1,20 @@
+﻿Client
+1.0.0.0
+
+winexe
+C#
+.cs
+D:\Visual Projects\UTM\PAD\1\PAD_Lab2\Client\Client\obj\Debug\netcoreapp3.1\
+Client
+none
+false
+TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
+D:\Visual Projects\UTM\PAD\1\PAD_Lab2\Client\Client\App.xaml
+41247833519
+
+81452359243
+220475938696
+MainWindow.xaml;Views\AccountView.xaml;Views\CurrencyView.xaml;Views\TransactionView.xaml;
+
+True
+
