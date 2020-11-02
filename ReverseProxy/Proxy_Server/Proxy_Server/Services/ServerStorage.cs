@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Configuration;
+using Proxy_Server.Helpers;
 using Proxy_Server.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -11,30 +12,34 @@ namespace Proxy_Server.Services
     {
         private readonly IConfiguration _config;
         private Dictionary<string, Server> storage;
+        private RoundRobin _load_balancing;
         public ServerStorage(IConfiguration configuration, IServiceProvider _serviceProvider)
         {
             _config = configuration;
             storage = new Dictionary<string, Server>();
             ParseServerList();
+
         }
 
         public Server GetServer()
         {
-
-            // need to implement something ballance
-           var selected = storage.FirstOrDefault(m => m.Key == "MN00001");
-            return selected.Value;
+            var selectedServer = _load_balancing.GetServer();
+            return selectedServer;
         }
 
         private void ParseServerList()
         {
+
             List<Server> serverlist = new List<Server>();
             _config.GetSection("servers").Bind(serverlist);
 
-            foreach(var item in serverlist)
+            foreach (var item in serverlist)
             {
                 storage.Add(item.ID, item);
             }
+            _load_balancing = new RoundRobin(serverlist);
         }
+
+
     }
 }

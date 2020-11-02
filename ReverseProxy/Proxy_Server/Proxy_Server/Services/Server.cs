@@ -5,5 +5,6 @@
         public string ID { get; set; }
         public string ServerName { get; set; }
         public string Location { get; set; }
+        public int Weight { get; set; }
     }
 }
