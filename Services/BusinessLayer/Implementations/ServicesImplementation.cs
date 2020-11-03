@@ -161,5 +161,31 @@ namespace BusinessLayer.Implementations
                 };
             }
         }
+
+
+        internal List<Transactions> GetTransactions(int client_id)
+        {
+             using(var context = new PADLaboratoriesContext())
+            {
+
+                var data = context.Transactions.Where(m => m.AccountOwnerId == client_id).ToList();
+
+                var owner = context.Accounts.Where(m => m.AccountId == data[0].AccountOwnerId)
+                    .Select(m => new Accounts { FirstName = m.FirstName, LastName = m.LastName, Balance = m.Balance, DateRegistered = m.DateRegistered, Phone = m.Phone })
+                .FirstOrDefault();
+                var receiver = context.Accounts.Where(m => m.AccountId == data[0].AccountOwnerId)
+                    .Select(m => new Accounts { FirstName = m.FirstName, LastName = m.LastName, Balance = m.Balance, DateRegistered = m.DateRegistered, Phone = m.Phone })
+                  .FirstOrDefault();
+
+
+                for (int i = 1; i < data.Count; i++)
+                {
+                    data[i].AccountOwner = owner;
+                    data[i].AccountReceiver = receiver;
+                }
+                return data;
+            }
+            
+        }
     }
 }

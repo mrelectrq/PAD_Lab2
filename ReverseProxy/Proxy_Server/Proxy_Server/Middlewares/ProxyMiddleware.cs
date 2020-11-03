@@ -67,7 +67,6 @@ namespace Proxy_Server.Middlewares
             var method = request.Method;
             return new HttpMethod(method);
         }
-
         private Uri BuildUri(HttpRequest request)
         {
 
@@ -92,6 +91,8 @@ namespace Proxy_Server.Middlewares
                 context.Response.Headers[item.Key] = item.Value.ToArray();
             }
             context.Response.Headers.Remove("transfer-encoding");
+            context.Response.Body.WriteAsync(message.Content.ReadAsByteArrayAsync().Result);
+
 
         }
     }

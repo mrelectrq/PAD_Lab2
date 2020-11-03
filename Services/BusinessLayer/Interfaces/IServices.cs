@@ -1,4 +1,5 @@
-﻿using BusinessLayer.Models;
+﻿using BusinessLayer.DBModels;
+using BusinessLayer.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -11,6 +12,8 @@ namespace BusinessLayer.Interfaces
         public Task<AccountResponse> GetAccount(AccountMessage account);
         public Task<CurrencyResponse> GetCurrency();
         public Task<TransactionResponse> GetTransaction(TransactionMessage transaction);
+
+        public List<Transactions> SearchTransaction(int client_id);
 
     }
 }

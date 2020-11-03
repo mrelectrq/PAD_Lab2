@@ -24,7 +24,7 @@ namespace BusinessLayer.DBModels
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseSqlServer("Server=localhost;Database=PADLaboratories;Trusted_Connection=True;");
+                optionsBuilder.UseSqlServer("Server=DESKTOP-GDI15RS\\SQLEXPRESS;Database=PADLaboratories;Trusted_Connection=True;");
             }
         }
 

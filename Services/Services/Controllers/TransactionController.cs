@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using BusinessLayer;
+using BusinessLayer.DBModels;
 using BusinessLayer.Interfaces;
 using BusinessLayer.Models;
 using Microsoft.AspNetCore.Http;
@@ -26,6 +27,15 @@ namespace Services.Controllers
         {
             var response = services.GetTransaction(message);
             return response.Result;
+        }
+
+        [HttpGet("{client_id}")]
+
+        public ActionResult<List<Transactions>> GetResult(int client_id )
+        {
+           var transactions=  services.SearchTransaction(client_id);
+
+            return transactions;
         }
     }
 }

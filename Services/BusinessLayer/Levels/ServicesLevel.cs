@@ -1,4 +1,5 @@
-﻿using BusinessLayer.Implementations;
+﻿using BusinessLayer.DBModels;
+using BusinessLayer.Implementations;
 using BusinessLayer.Interfaces;
 using BusinessLayer.Models;
 using System;
@@ -23,5 +24,12 @@ namespace BusinessLayer.Levels
         {
             return TransactionAction(transaction);
         }
+
+
+        public List<Transactions> SearchTransaction(int client_id)
+        {
+            return GetTransactions(client_id);
+        }
+
     }
 }
