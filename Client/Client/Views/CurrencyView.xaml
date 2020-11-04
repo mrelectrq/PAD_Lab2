@@ -10,7 +10,7 @@
 
     <Grid Background="White">
         <Button Content="Back" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="35" Width="88" FontFamily="Times New Roman" FontWeight="Bold" FontSize="15" Click="Button_Click"/>
-        <TextBlock HorizontalAlignment="Center" Margin="0,28,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="40" FontWeight="Bold"><Run Text="Currency"/><LineBreak/><Run/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" Margin="0,28,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="40" FontWeight="Bold" Foreground="#FF253B97"><Run Text="Currency"/><LineBreak/><Run/></TextBlock>
         <TextBlock HorizontalAlignment="Left" Margin="305,98,0,0" Text="SELL" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold"/>
         <TextBlock HorizontalAlignment="Left" Margin="470,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold"><Run Text="BUY"/><LineBreak/><Run/></TextBlock>
         <TextBlock HorizontalAlignment="Center" Margin="0,117,0,0" Text="EUR" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold"/>

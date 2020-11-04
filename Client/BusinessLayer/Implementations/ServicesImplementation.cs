@@ -14,7 +14,6 @@ namespace BusinessLayer.Implementations
 {
     public class ServicesImplementation
     {
-
         internal async Task<AccountResponse> AccountAction(AccountMessage data)
         {
             var data_req = JsonConvert.SerializeObject(data);
@@ -26,7 +25,6 @@ namespace BusinessLayer.Implementations
             var client = new HttpClient(handler);
             client.BaseAddress = new Uri("https://localhost:44363/");
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-
 
 
             var response = client.PostAsync("api/Account", content);

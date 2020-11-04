@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Visual Projects\\UTM\\PAD\\1\\PAD_Lab2\\Client\\BusinessLayer\\BusinessLayer.csproj": {}
+    "D:\\Lab 2 PAD\\PAD_Lab2\\Client\\BusinessLayer\\BusinessLayer.csproj": {}
   },
   "projects": {
-    "D:\\Visual Projects\\UTM\\PAD\\1\\PAD_Lab2\\Client\\BusinessLayer\\BusinessLayer.csproj": {
+    "D:\\Lab 2 PAD\\PAD_Lab2\\Client\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual Projects\\UTM\\PAD\\1\\PAD_Lab2\\Client\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "D:\\Lab 2 PAD\\PAD_Lab2\\Client\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "D:\\Visual Projects\\UTM\\PAD\\1\\PAD_Lab2\\Client\\BusinessLayer\\BusinessLayer.csproj",
-        "packagesPath": "C:\\Users\\Artyrik\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual Projects\\UTM\\PAD\\1\\PAD_Lab2\\Client\\BusinessLayer\\obj\\",
+        "projectPath": "D:\\Lab 2 PAD\\PAD_Lab2\\Client\\BusinessLayer\\BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\Lab 2 PAD\\PAD_Lab2\\Client\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Artyrik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -75,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
