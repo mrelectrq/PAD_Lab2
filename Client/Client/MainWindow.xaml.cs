@@ -52,5 +52,10 @@ namespace Client
         {
 
         }
+
+        private void MainWindowPage_Navigated(object sender, NavigationEventArgs e)
+        {
+
+        }
     }
 }
