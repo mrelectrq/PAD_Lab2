@@ -10,7 +10,7 @@
 
     <Grid Background="White">
         <Button Content="Back" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="35" Width="88" FontFamily="Times New Roman" FontWeight="Bold" FontSize="15" Click="Button_Click"/>
-        <TextBlock HorizontalAlignment="Center" Margin="0,28,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="40" FontWeight="Bold"><Run Text="Transaction"/><LineBreak/><Run/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="316,22,0,0" TextWrapping="Wrap" Foreground="#FF0B6C21" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="40" FontWeight="Bold"><Run Text="Transaction"/><LineBreak/><Run/></TextBlock>
         <TextBox HorizontalAlignment="Left" Margin="356,107,0,0" Name="OwnerID" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
         <TextBox HorizontalAlignment="Left" Margin="356,147,0,0" x:Name="ReceiverID" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
         <TextBox HorizontalAlignment="Left" Margin="356,187,0,0" x:Name="Currency" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
