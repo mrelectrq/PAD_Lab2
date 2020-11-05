@@ -44,8 +44,8 @@ namespace Client.Views
         {
             var transaction = new TransactionMessage
             {
-                AccountReceiverId = Int32.Parse(ReceiverID.Text),
-                AccountOwnerId = Int32.Parse(OwnerID.Text),
+                AccountReceiverId = ReceiverID.Text,
+                AccountOwnerId = OwnerID.Text,
                 Amount = Int64.Parse(Amount.Text),
                 Currency=Currency.Text
             };

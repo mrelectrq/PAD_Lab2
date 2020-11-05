@@ -6,7 +6,7 @@ namespace BusinessLayer.Models
 {
     public class AccountMessage
     {
-        public int AccountId { get; set; }
+        public string AccountId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public double Balance { get; set; }

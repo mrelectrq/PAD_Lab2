@@ -7043,11 +7043,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Visual Projects\\UTM\\PAD\\1\\Part2\\PAD_Lab2\\Client\\Client\\Client.csproj",
+      "projectUniqueName": "C:\\Users\\Artyrik\\Desktop\\Partea 2\\PAD_Lab2\\Client\\Client\\Client.csproj",
       "projectName": "Client",
-      "projectPath": "D:\\Visual Projects\\UTM\\PAD\\1\\Part2\\PAD_Lab2\\Client\\Client\\Client.csproj",
+      "projectPath": "C:\\Users\\Artyrik\\Desktop\\Partea 2\\PAD_Lab2\\Client\\Client\\Client.csproj",
       "packagesPath": "C:\\Users\\Artyrik\\.nuget\\packages\\",
-      "outputPath": "D:\\Visual Projects\\UTM\\PAD\\1\\Part2\\PAD_Lab2\\Client\\Client\\obj\\",
+      "outputPath": "C:\\Users\\Artyrik\\Desktop\\Partea 2\\PAD_Lab2\\Client\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7066,8 +7066,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\Visual Projects\\UTM\\PAD\\1\\Part2\\PAD_Lab2\\Client\\BusinessLayer\\BusinessLayer.csproj": {
-              "projectPath": "D:\\Visual Projects\\UTM\\PAD\\1\\Part2\\PAD_Lab2\\Client\\BusinessLayer\\BusinessLayer.csproj"
+            "C:\\Users\\Artyrik\\Desktop\\Partea 2\\PAD_Lab2\\Client\\BusinessLayer\\BusinessLayer.csproj": {
+              "projectPath": "C:\\Users\\Artyrik\\Desktop\\Partea 2\\PAD_Lab2\\Client\\BusinessLayer\\BusinessLayer.csproj"
             }
           }
         }

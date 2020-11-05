@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "45KUgSU+Wa8PRi3n4N5goMws2oZU/X55toW55Wy8QVbuqPD/P4ctO4CAaGT5/yJIxqajBjKUmFgJvS0sh05a0A==",
+  "dgSpecHash": "UxwBnUnOSgJHvSyUcFnXqx9J1MwIcJZDvwyZepWjEK9aGOFUXHITHUYLvN14PXPdR56HdlYokSKYB9JW7v+RVw==",
   "success": true,
-  "projectFilePath": "D:\\Visual Projects\\UTM\\PAD\\1\\Part2\\PAD_Lab2\\Client\\BusinessLayer\\BusinessLayer.csproj",
+  "projectFilePath": "C:\\Users\\Artyrik\\Desktop\\Partea 2\\PAD_Lab2\\Client\\BusinessLayer\\BusinessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Artyrik\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Artyrik\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
