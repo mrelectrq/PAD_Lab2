@@ -29,7 +29,7 @@ namespace BusinessLayer.Implementations
 
 
 
-            var response = client.PostAsync("api/Account", content);
+            var response = client.PostAsync("api/account", content);
             var regresp = new AccountResponse();
 
             try
@@ -58,7 +58,7 @@ namespace BusinessLayer.Implementations
             client.BaseAddress = new Uri("https://localhost:44363/");
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
-            var response = client.GetAsync("api/Currency");
+            var response = client.GetAsync("api/currency");
             var regresp = new CurrencyResponse();
 
             try
@@ -92,7 +92,7 @@ namespace BusinessLayer.Implementations
 
 
 
-            var response = client.PostAsync("api/Transaction", content);
+            var response = client.PostAsync("api/transaction", content);
             var regresp = new TransactionResponse();
 
             try

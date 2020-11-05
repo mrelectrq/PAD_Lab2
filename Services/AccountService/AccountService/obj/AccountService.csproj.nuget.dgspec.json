@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\AccountService\\AccountService\\AccountService.csproj": {}
+    "D:\\univer\\anul4\\pad\\laborator2\\pad_lab2\\services\\accountservice\\accountservice\\AccountService.csproj": {}
   },
   "projects": {
-    "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\AccountService\\AccountService\\AccountService.csproj": {
+    "D:\\univer\\anul4\\pad\\laborator2\\pad_lab2\\services\\accountservice\\accountservice\\AccountService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\AccountService\\AccountService\\AccountService.csproj",
+        "projectUniqueName": "D:\\univer\\anul4\\pad\\laborator2\\pad_lab2\\services\\accountservice\\accountservice\\AccountService.csproj",
         "projectName": "AccountService",
-        "projectPath": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\AccountService\\AccountService\\AccountService.csproj",
+        "projectPath": "D:\\univer\\anul4\\pad\\laborator2\\pad_lab2\\services\\accountservice\\accountservice\\AccountService.csproj",
         "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\AccountService\\AccountService\\obj\\",
+        "outputPath": "D:\\univer\\anul4\\pad\\laborator2\\pad_lab2\\services\\accountservice\\accountservice\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\AccountService\\BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\AccountService\\BusinessLayer\\BusinessLayer.csproj"
+              "D:\\univer\\anul4\\pad\\laborator2\\pad_lab2\\services\\accountservice\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "D:\\univer\\anul4\\pad\\laborator2\\pad_lab2\\services\\accountservice\\BusinessLayer\\BusinessLayer.csproj"
               }
             }
           }
@@ -63,14 +63,14 @@
         }
       }
     },
-    "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\AccountService\\BusinessLayer\\BusinessLayer.csproj": {
+    "D:\\univer\\anul4\\pad\\laborator2\\pad_lab2\\services\\accountservice\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\AccountService\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "D:\\univer\\anul4\\pad\\laborator2\\pad_lab2\\services\\accountservice\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\AccountService\\BusinessLayer\\BusinessLayer.csproj",
+        "projectPath": "D:\\univer\\anul4\\pad\\laborator2\\pad_lab2\\services\\accountservice\\BusinessLayer\\BusinessLayer.csproj",
         "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\AccountService\\BusinessLayer\\obj\\",
+        "outputPath": "D:\\univer\\anul4\\pad\\laborator2\\pad_lab2\\services\\accountservice\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -119,11 +119,11 @@
             },
             "MongoDB.Driver": {
               "target": "Package",
-              "version": "[2.11.3, )"
+              "version": "[2.11.4, )"
             },
             "MongoDB.Driver.Core": {
               "target": "Package",
-              "version": "[2.11.3, )"
+              "version": "[2.11.4, )"
             }
           },
           "imports": [
