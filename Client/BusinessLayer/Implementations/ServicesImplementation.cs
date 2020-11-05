@@ -85,7 +85,7 @@ namespace BusinessLayer.Implementations
             handler.ServerCertificateCustomValidationCallback = HttpClientHandler.DangerousAcceptAnyServerCertificateValidator;
             handler.AllowAutoRedirect = true;
             var client = new HttpClient(handler);
-            client.BaseAddress = new Uri("https://localhost:44363/");
+            client.BaseAddress = new Uri("https://localhost:44363");
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
 

@@ -14,7 +14,7 @@ namespace BusinessLayer.Implementations
         {
             try
             {
-                using (var context = new PADLaboratoriesContext())
+                using (var context = new PadLaboratoriesContext())
                 {
                     var account = context.Accounts.FirstOrDefault(m => m.FirstName == data.FirstName && m.LastName == data.LastName
                    || m.AccountId == data.AccountId || m.Phone == data.Phone);
@@ -62,7 +62,7 @@ namespace BusinessLayer.Implementations
         {
             try
             {
-                using (var db = new PADLaboratoriesContext())
+                using (var db = new PadLaboratoriesContext())
                 {
                     var sellCurrency = db.Currency.FirstOrDefault(x => x.Type == "Sell");
                     var buyCurrency = db.Currency.FirstOrDefault(x => x.Type == "Buy");
@@ -122,7 +122,7 @@ namespace BusinessLayer.Implementations
         {
             try
             {
-                using (var db = new PADLaboratoriesContext())
+                using (var db = new PadLaboratoriesContext())
                 {
                     var ownercard = db.Accounts.Find(data.AccountOwnerId);
                     ownercard.Balance -= data.Amount;
@@ -165,7 +165,7 @@ namespace BusinessLayer.Implementations
 
         internal List<Transactions> GetTransactions(int client_id)
         {
-             using(var context = new PADLaboratoriesContext())
+             using(var context = new PadLaboratoriesContext())
             {
 
                 var data = context.Transactions.Where(m => m.AccountOwnerId == client_id).ToList();

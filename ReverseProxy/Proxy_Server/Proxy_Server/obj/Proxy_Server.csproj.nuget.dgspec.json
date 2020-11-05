@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\ReverseProxy\\Proxy_Server\\Proxy_Server\\Proxy_Server.csproj": {}
+    "C:\\Users\\Artyrik\\Desktop\\Projects\\PAD_Lab2\\ReverseProxy\\Proxy_Server\\Proxy_Server\\Proxy_Server.csproj": {}
   },
   "projects": {
-    "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\ReverseProxy\\Proxy_Server\\Proxy_Server\\Proxy_Server.csproj": {
+    "C:\\Users\\Artyrik\\Desktop\\Projects\\PAD_Lab2\\ReverseProxy\\Proxy_Server\\Proxy_Server\\Proxy_Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\ReverseProxy\\Proxy_Server\\Proxy_Server\\Proxy_Server.csproj",
+        "projectUniqueName": "C:\\Users\\Artyrik\\Desktop\\Projects\\PAD_Lab2\\ReverseProxy\\Proxy_Server\\Proxy_Server\\Proxy_Server.csproj",
         "projectName": "Proxy_Server",
-        "projectPath": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\ReverseProxy\\Proxy_Server\\Proxy_Server\\Proxy_Server.csproj",
-        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\ReverseProxy\\Proxy_Server\\Proxy_Server\\obj\\",
+        "projectPath": "C:\\Users\\Artyrik\\Desktop\\Projects\\PAD_Lab2\\ReverseProxy\\Proxy_Server\\Proxy_Server\\Proxy_Server.csproj",
+        "packagesPath": "C:\\Users\\Artyrik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Artyrik\\Desktop\\Projects\\PAD_Lab2\\ReverseProxy\\Proxy_Server\\Proxy_Server\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Artyrik\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -65,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

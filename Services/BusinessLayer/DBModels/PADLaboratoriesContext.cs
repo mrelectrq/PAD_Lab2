@@ -4,13 +4,13 @@ using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace BusinessLayer.DBModels
 {
-    public partial class PADLaboratoriesContext : DbContext
+    public partial class PadLaboratoriesContext : DbContext
     {
-        public PADLaboratoriesContext()
+        public PadLaboratoriesContext()
         {
         }
 
-        public PADLaboratoriesContext(DbContextOptions<PADLaboratoriesContext> options)
+        public PadLaboratoriesContext(DbContextOptions<PadLaboratoriesContext> options)
             : base(options)
         {
         }
@@ -24,7 +24,7 @@ namespace BusinessLayer.DBModels
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseSqlServer("Server=DESKTOP-GDI15RS\\SQLEXPRESS;Database=PADLaboratories;Trusted_Connection=True;");
+                optionsBuilder.UseSqlServer("Server=localhost;Database=PadLaboratories;Trusted_Connection=True;");
             }
         }
 

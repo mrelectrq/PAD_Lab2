@@ -39,7 +39,7 @@ namespace Client.Views
             Eursell.Text = curresponse.SellCurrency.Eur.ToString();
             USDSell.Text = curresponse.SellCurrency.Usd.ToString();
             RUBSELL.Text = curresponse.SellCurrency.Rub.ToString();
-            RONBUY.Text = curresponse.SellCurrency.Ron.ToString();
+            RONSELL.Text = curresponse.SellCurrency.Ron.ToString();
             UAHSELL.Text = curresponse.SellCurrency.Uah.ToString();
 
             //BUY

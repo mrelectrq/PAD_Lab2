@@ -34,3 +34,15 @@ D:\Lab 2 PAD\PAD_Lab2\Client\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer
 D:\Lab 2 PAD\PAD_Lab2\Client\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.dll
 D:\Lab 2 PAD\PAD_Lab2\Client\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.pdb
 D:\Lab 2 PAD\PAD_Lab2\Client\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.genruntimeconfig.cache
+C:\Users\Artyrik\Desktop\Projects\PAD_Lab2\Client\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.deps.json
+C:\Users\Artyrik\Desktop\Projects\PAD_Lab2\Client\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.runtimeconfig.json
+C:\Users\Artyrik\Desktop\Projects\PAD_Lab2\Client\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.runtimeconfig.dev.json
+C:\Users\Artyrik\Desktop\Projects\PAD_Lab2\Client\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.dll
+C:\Users\Artyrik\Desktop\Projects\PAD_Lab2\Client\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.pdb
+C:\Users\Artyrik\Desktop\Projects\PAD_Lab2\Client\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.csprojAssemblyReference.cache
+C:\Users\Artyrik\Desktop\Projects\PAD_Lab2\Client\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\Artyrik\Desktop\Projects\PAD_Lab2\Client\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.AssemblyInfo.cs
+C:\Users\Artyrik\Desktop\Projects\PAD_Lab2\Client\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Artyrik\Desktop\Projects\PAD_Lab2\Client\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.dll
+C:\Users\Artyrik\Desktop\Projects\PAD_Lab2\Client\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.pdb
+C:\Users\Artyrik\Desktop\Projects\PAD_Lab2\Client\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.genruntimeconfig.cache
