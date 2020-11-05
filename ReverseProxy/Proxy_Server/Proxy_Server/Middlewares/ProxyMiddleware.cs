@@ -74,9 +74,10 @@ namespace Proxy_Server.Middlewares
                         var status = _cacheClient.IsCacheable(context.Request.Path);
                         if (status)
                         {
-                            using(StreamReader r = new StreamReader(context.Response.Body,Encoding.UTF8,true,1024,true))
-                            _cacheClient.SetCache(context.Request.Path,
-                                 r.ReadToEnd());
+
+
+                            _cacheClient.SetCache(context.Request.Path,responseMessage.Content.ReadAsStringAsync().Result);
+                                 
                         }
                     }
 
@@ -95,6 +96,7 @@ namespace Proxy_Server.Middlewares
                 Method = GetRequestMethod(context.Request),
                 Content = new StreamContent(context.Request.Body)
             };
+
 
             foreach (var item in context.Request.Headers)
             {

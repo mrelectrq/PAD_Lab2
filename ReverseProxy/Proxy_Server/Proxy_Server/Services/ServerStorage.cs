@@ -24,12 +24,12 @@ namespace Proxy_Server.Services
 
         public Server GetServer(string service)
         {
-            Regex regex = new Regex(@"^[a-zA-Z\s]*");
-
-            var parsed = regex.Match(service).Value;
-
+            // Regex regex = new Regex(@"^[a-zA-Z\s]*");
+          //  Regex regex = new Regex(@"^[a-zA-Z\s]*");
+            //var parsed = regex.Match(service.TrimStart("/api/".ToCharArray())).Value;
+           
             var branch = _load_balancing
-                .Where(m => m.Key == parsed)
+                .Where(m => m.Key == service)
                 .Select(m => m.Value)
                 .FirstOrDefault();
 

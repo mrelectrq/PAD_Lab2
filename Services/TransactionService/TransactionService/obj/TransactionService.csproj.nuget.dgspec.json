@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\TransactionService\\TransactionService\\TransactionService.csproj": {}
+    "D:\\univer\\anul4\\pad\\laborator2\\pad_lab2\\services\\transactionservice\\transactionservice\\TransactionService.csproj": {}
   },
   "projects": {
-    "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\TransactionService\\BusinessLayer\\BusinessLayer.csproj": {
+    "D:\\univer\\anul4\\pad\\laborator2\\pad_lab2\\services\\transactionservice\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\TransactionService\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "D:\\univer\\anul4\\pad\\laborator2\\pad_lab2\\services\\transactionservice\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\TransactionService\\BusinessLayer\\BusinessLayer.csproj",
-        "packagesPath": "C:\\Users\\Artyrik\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\TransactionService\\BusinessLayer\\obj\\",
+        "projectPath": "D:\\univer\\anul4\\pad\\laborator2\\pad_lab2\\services\\transactionservice\\BusinessLayer\\BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
+        "outputPath": "D:\\univer\\anul4\\pad\\laborator2\\pad_lab2\\services\\transactionservice\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Artyrik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -75,24 +72,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\TransactionService\\TransactionService\\TransactionService.csproj": {
+    "D:\\univer\\anul4\\pad\\laborator2\\pad_lab2\\services\\transactionservice\\transactionservice\\TransactionService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\TransactionService\\TransactionService\\TransactionService.csproj",
+        "projectUniqueName": "D:\\univer\\anul4\\pad\\laborator2\\pad_lab2\\services\\transactionservice\\transactionservice\\TransactionService.csproj",
         "projectName": "TransactionService",
-        "projectPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\TransactionService\\TransactionService\\TransactionService.csproj",
-        "packagesPath": "C:\\Users\\Artyrik\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\TransactionService\\TransactionService\\obj\\",
+        "projectPath": "D:\\univer\\anul4\\pad\\laborator2\\pad_lab2\\services\\transactionservice\\transactionservice\\TransactionService.csproj",
+        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
+        "outputPath": "D:\\univer\\anul4\\pad\\laborator2\\pad_lab2\\services\\transactionservice\\transactionservice\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Artyrik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -105,8 +99,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\TransactionService\\BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\TransactionService\\BusinessLayer\\BusinessLayer.csproj"
+              "D:\\univer\\anul4\\pad\\laborator2\\pad_lab2\\services\\transactionservice\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "D:\\univer\\anul4\\pad\\laborator2\\pad_lab2\\services\\transactionservice\\BusinessLayer\\BusinessLayer.csproj"
               }
             }
           }
@@ -137,7 +131,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
