@@ -10,8 +10,6 @@ D:\Univer\ANUL4\PAD\Laborator2\PAD_Lab2\ReverseProxy\Proxy_Server\Proxy_Server\b
 D:\Univer\ANUL4\PAD\Laborator2\PAD_Lab2\ReverseProxy\Proxy_Server\Proxy_Server\obj\Debug\netcoreapp3.1\Proxy_Server.csprojAssemblyReference.cache
 D:\Univer\ANUL4\PAD\Laborator2\PAD_Lab2\ReverseProxy\Proxy_Server\Proxy_Server\obj\Debug\netcoreapp3.1\Proxy_Server.AssemblyInfoInputs.cache
 D:\Univer\ANUL4\PAD\Laborator2\PAD_Lab2\ReverseProxy\Proxy_Server\Proxy_Server\obj\Debug\netcoreapp3.1\Proxy_Server.AssemblyInfo.cs
-D:\Univer\ANUL4\PAD\Laborator2\PAD_Lab2\ReverseProxy\Proxy_Server\Proxy_Server\obj\Debug\netcoreapp3.1\Proxy_Server.csproj.CoreCompileInputs.cache
-D:\Univer\ANUL4\PAD\Laborator2\PAD_Lab2\ReverseProxy\Proxy_Server\Proxy_Server\obj\Debug\netcoreapp3.1\Proxy_Server.MvcApplicationPartsAssemblyInfo.cache
 D:\Univer\ANUL4\PAD\Laborator2\PAD_Lab2\ReverseProxy\Proxy_Server\Proxy_Server\obj\Debug\netcoreapp3.1\Proxy_Server.RazorTargetAssemblyInfo.cache
 D:\Univer\ANUL4\PAD\Laborator2\PAD_Lab2\ReverseProxy\Proxy_Server\Proxy_Server\obj\Debug\netcoreapp3.1\staticwebassets\Proxy_Server.StaticWebAssets.Manifest.cache
 D:\Univer\ANUL4\PAD\Laborator2\PAD_Lab2\ReverseProxy\Proxy_Server\Proxy_Server\obj\Debug\netcoreapp3.1\staticwebassets\Proxy_Server.StaticWebAssets.xml
@@ -38,3 +36,13 @@ D:\Visual Projects\UTM\PAD\1\Part1\PAD_Lab2\ReverseProxy\Proxy_Server\Proxy_Serv
 D:\Visual Projects\UTM\PAD\1\Part1\PAD_Lab2\ReverseProxy\Proxy_Server\Proxy_Server\obj\Debug\netcoreapp3.1\Proxy_Server.dll
 D:\Visual Projects\UTM\PAD\1\Part1\PAD_Lab2\ReverseProxy\Proxy_Server\Proxy_Server\obj\Debug\netcoreapp3.1\Proxy_Server.pdb
 D:\Visual Projects\UTM\PAD\1\Part1\PAD_Lab2\ReverseProxy\Proxy_Server\Proxy_Server\obj\Debug\netcoreapp3.1\Proxy_Server.genruntimeconfig.cache
+D:\Univer\ANUL4\PAD\Laborator2\PAD_Lab2\ReverseProxy\Proxy_Server\Proxy_Server\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Univer\ANUL4\PAD\Laborator2\PAD_Lab2\ReverseProxy\Proxy_Server\Proxy_Server\obj\Debug\netcoreapp3.1\Proxy_Server.csproj.CopyComplete
+D:\Univer\ANUL4\PAD\Laborator2\PAD_Lab2\ReverseProxy\Proxy_Server\Proxy_Server\bin\Debug\netcoreapp3.1\GraphQL.Client.dll
+D:\Univer\ANUL4\PAD\Laborator2\PAD_Lab2\ReverseProxy\Proxy_Server\Proxy_Server\bin\Debug\netcoreapp3.1\GraphQL.Client.Abstractions.dll
+D:\Univer\ANUL4\PAD\Laborator2\PAD_Lab2\ReverseProxy\Proxy_Server\Proxy_Server\bin\Debug\netcoreapp3.1\GraphQL.Client.Abstractions.Websocket.dll
+D:\Univer\ANUL4\PAD\Laborator2\PAD_Lab2\ReverseProxy\Proxy_Server\Proxy_Server\bin\Debug\netcoreapp3.1\GraphQL.Primitives.dll
+D:\Univer\ANUL4\PAD\Laborator2\PAD_Lab2\ReverseProxy\Proxy_Server\Proxy_Server\bin\Debug\netcoreapp3.1\System.Reactive.dll
+D:\Univer\ANUL4\PAD\Laborator2\PAD_Lab2\ReverseProxy\Proxy_Server\Proxy_Server\bin\Debug\netcoreapp3.1\System.Reactive.xml
+D:\Univer\ANUL4\PAD\Laborator2\PAD_Lab2\ReverseProxy\Proxy_Server\Proxy_Server\obj\Debug\netcoreapp3.1\Proxy_Server.csproj.CoreCompileInputs.cache
+D:\Univer\ANUL4\PAD\Laborator2\PAD_Lab2\ReverseProxy\Proxy_Server\Proxy_Server\obj\Debug\netcoreapp3.1\Proxy_Server.MvcApplicationPartsAssemblyInfo.cache

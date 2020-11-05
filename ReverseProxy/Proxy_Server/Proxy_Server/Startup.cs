@@ -20,6 +20,7 @@ namespace Proxy_Server
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddSingleton<IServerStorage, ServerStorage>();
+            services.AddSingleton<IContentAdapter, ContentAdapter>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

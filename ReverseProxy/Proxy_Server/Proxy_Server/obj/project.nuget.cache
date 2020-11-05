@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "Wpo16vTH1sDbqS0akmX+0Uj70hBtBSu35wkf4oJzvO+YFnp3YmaDd5hnSUmZZ0CN3pfZAMThssjrptdpIFkxug==",
+  "dgSpecHash": "47leJpsizs8irjWHNn7JQINseKefkfaZ6dw1MHH042wFkcM6OuXYMIzrfaWS2xgTe92o3Q3ijQhKLuAQIdt4rg==",
   "success": true,
   "projectFilePath": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\ReverseProxy\\Proxy_Server\\Proxy_Server\\Proxy_Server.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Alex\\.nuget\\packages\\graphql.client\\3.2.0\\graphql.client.3.2.0.nupkg.sha512",
+    "C:\\Users\\Alex\\.nuget\\packages\\graphql.client.abstractions\\3.2.0\\graphql.client.abstractions.3.2.0.nupkg.sha512",
+    "C:\\Users\\Alex\\.nuget\\packages\\graphql.client.abstractions.websocket\\3.2.0\\graphql.client.abstractions.websocket.3.2.0.nupkg.sha512",
+    "C:\\Users\\Alex\\.nuget\\packages\\graphql.primitives\\3.2.0\\graphql.primitives.3.2.0.nupkg.sha512",
+    "C:\\Users\\Alex\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Alex\\.nuget\\packages\\system.reactive\\4.3.2\\system.reactive.4.3.2.nupkg.sha512"
+  ],
   "logs": []
 }
