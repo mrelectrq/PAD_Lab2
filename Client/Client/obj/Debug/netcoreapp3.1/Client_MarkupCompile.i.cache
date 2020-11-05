@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-D:\Lab 2 PAD\PAD_Lab2\Client\Client\obj\Debug\netcoreapp3.1\
+C:\Users\Artyrik\Desktop\Partea 2\PAD_Lab2\Client\Client\obj\Debug\netcoreapp3.1\
 Client
 none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
-D:\Lab 2 PAD\PAD_Lab2\Client\Client\App.xaml
+C:\Users\Artyrik\Desktop\Partea 2\PAD_Lab2\Client\Client\App.xaml
 41247833519
 
 81452359243
-220461883959
+220-1347262619
 MainWindow.xaml;Views\AccountView.xaml;Views\CurrencyView.xaml;Views\TransactionView.xaml;
 
 False

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\AccountService\\AccountService\\AccountService.csproj": {}
+    "C:\\Users\\Artyrik\\Desktop\\Partea 2\\PAD_Lab2\\Services\\AccountService\\AccountService\\AccountService.csproj": {}
   },
   "projects": {
-    "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\AccountService\\AccountService\\AccountService.csproj": {
+    "C:\\Users\\Artyrik\\Desktop\\Partea 2\\PAD_Lab2\\Services\\AccountService\\AccountService\\AccountService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\AccountService\\AccountService\\AccountService.csproj",
+        "projectUniqueName": "C:\\Users\\Artyrik\\Desktop\\Partea 2\\PAD_Lab2\\Services\\AccountService\\AccountService\\AccountService.csproj",
         "projectName": "AccountService",
-        "projectPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\AccountService\\AccountService\\AccountService.csproj",
+        "projectPath": "C:\\Users\\Artyrik\\Desktop\\Partea 2\\PAD_Lab2\\Services\\AccountService\\AccountService\\AccountService.csproj",
         "packagesPath": "C:\\Users\\Artyrik\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\AccountService\\AccountService\\obj\\",
+        "outputPath": "C:\\Users\\Artyrik\\Desktop\\Partea 2\\PAD_Lab2\\Services\\AccountService\\AccountService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\AccountService\\BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\AccountService\\BusinessLayer\\BusinessLayer.csproj"
+              "C:\\Users\\Artyrik\\Desktop\\Partea 2\\PAD_Lab2\\Services\\AccountService\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\Artyrik\\Desktop\\Partea 2\\PAD_Lab2\\Services\\AccountService\\BusinessLayer\\BusinessLayer.csproj"
               }
             }
           }
@@ -66,14 +66,14 @@
         }
       }
     },
-    "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\AccountService\\BusinessLayer\\BusinessLayer.csproj": {
+    "C:\\Users\\Artyrik\\Desktop\\Partea 2\\PAD_Lab2\\Services\\AccountService\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\AccountService\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Artyrik\\Desktop\\Partea 2\\PAD_Lab2\\Services\\AccountService\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\AccountService\\BusinessLayer\\BusinessLayer.csproj",
+        "projectPath": "C:\\Users\\Artyrik\\Desktop\\Partea 2\\PAD_Lab2\\Services\\AccountService\\BusinessLayer\\BusinessLayer.csproj",
         "packagesPath": "C:\\Users\\Artyrik\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\AccountService\\BusinessLayer\\obj\\",
+        "outputPath": "C:\\Users\\Artyrik\\Desktop\\Partea 2\\PAD_Lab2\\Services\\AccountService\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -125,11 +125,11 @@
             },
             "MongoDB.Driver": {
               "target": "Package",
-              "version": "[2.11.3, )"
+              "version": "[2.11.4, )"
             },
             "MongoDB.Driver.Core": {
               "target": "Package",
-              "version": "[2.11.3, )"
+              "version": "[2.11.4, )"
             }
           },
           "imports": [

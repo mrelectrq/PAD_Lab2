@@ -40,7 +40,7 @@ namespace Client.Views
         private void SendAccount_Click(object sender, RoutedEventArgs e)
         {
             var account = new AccountMessage();
-            account.AccountId = Int32.Parse(Accountid.Text);
+            account.AccountId = Accountid.Text;
                 account.FirstName = firstName.Text;
                 account.LastName = Lastname.Text;
 
@@ -54,8 +54,8 @@ namespace Client.Views
             LastNameResp.Text=accountResponse.Account.LastName.ToString();
             Balance.Text=accountResponse.Account.Balance.ToString();
             date.Text=accountResponse.Account.DateRegistered.ToString();
-            Phoneresp.Text=accountResponse.Account.Phone.ToString();
-            credits.Text=accountResponse.Account.Phone.ToString();
+            Phoneresp.Text=accountResponse.Account.Phone;
+            credits.Text=accountResponse.Account.Credits;
             MessageResp.Text = accountResponse.Message;
         }
     }

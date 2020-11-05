@@ -37,7 +37,7 @@ namespace BusinessLayer.DBModels
         public AccountMessage GetAccount(AccountMessage data)
         {
            var account= collection.Find<Accounts>(m => m.FirstName == data.FirstName && m.LastName == data.LastName
-                   || m.AccountId == data.AccountId || m.Phone == data.Phone).FirstOrDefault();
+                   && m.AccountId == data.AccountId || m.Phone == data.Phone).FirstOrDefault();
 
             return new AccountMessage
             {

@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Lab 2 PAD\\PAD_Lab2\\Client\\Client\\Client.csproj": {}
+    "C:\\Users\\Artyrik\\Desktop\\Partea 2\\PAD_Lab2\\Client\\Client\\Client.csproj": {}
   },
   "projects": {
-    "D:\\Lab 2 PAD\\PAD_Lab2\\Client\\BusinessLayer\\BusinessLayer.csproj": {
+    "C:\\Users\\Artyrik\\Desktop\\Partea 2\\PAD_Lab2\\Client\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Lab 2 PAD\\PAD_Lab2\\Client\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Artyrik\\Desktop\\Partea 2\\PAD_Lab2\\Client\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "D:\\Lab 2 PAD\\PAD_Lab2\\Client\\BusinessLayer\\BusinessLayer.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\Lab 2 PAD\\PAD_Lab2\\Client\\BusinessLayer\\obj\\",
+        "projectPath": "C:\\Users\\Artyrik\\Desktop\\Partea 2\\PAD_Lab2\\Client\\BusinessLayer\\BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\Artyrik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Artyrik\\Desktop\\Partea 2\\PAD_Lab2\\Client\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Artyrik\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -72,21 +75,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Lab 2 PAD\\PAD_Lab2\\Client\\Client\\Client.csproj": {
+    "C:\\Users\\Artyrik\\Desktop\\Partea 2\\PAD_Lab2\\Client\\Client\\Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Lab 2 PAD\\PAD_Lab2\\Client\\Client\\Client.csproj",
+        "projectUniqueName": "C:\\Users\\Artyrik\\Desktop\\Partea 2\\PAD_Lab2\\Client\\Client\\Client.csproj",
         "projectName": "Client",
-        "projectPath": "D:\\Lab 2 PAD\\PAD_Lab2\\Client\\Client\\Client.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\Lab 2 PAD\\PAD_Lab2\\Client\\Client\\obj\\",
+        "projectPath": "C:\\Users\\Artyrik\\Desktop\\Partea 2\\PAD_Lab2\\Client\\Client\\Client.csproj",
+        "packagesPath": "C:\\Users\\Artyrik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Artyrik\\Desktop\\Partea 2\\PAD_Lab2\\Client\\Client\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Artyrik\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -99,8 +105,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Lab 2 PAD\\PAD_Lab2\\Client\\BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "D:\\Lab 2 PAD\\PAD_Lab2\\Client\\BusinessLayer\\BusinessLayer.csproj"
+              "C:\\Users\\Artyrik\\Desktop\\Partea 2\\PAD_Lab2\\Client\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\Artyrik\\Desktop\\Partea 2\\PAD_Lab2\\Client\\BusinessLayer\\BusinessLayer.csproj"
               }
             }
           }
@@ -131,7 +137,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
