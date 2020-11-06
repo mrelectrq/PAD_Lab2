@@ -11,6 +11,7 @@
 *.suo
 *.user
 *.sln.docstates
+*.assets.cache
 
 # Build results
 [Dd]ebug/
