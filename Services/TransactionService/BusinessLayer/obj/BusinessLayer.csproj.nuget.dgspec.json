@@ -1,21 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "D:\\univer\\anul4\\pad\\laborator2\\pad_lab2\\services\\transactionservice\\BusinessLayer\\BusinessLayer.csproj": {}
+    "C:\\Users\\Artyrik\\Desktop\\PAD_Lab2\\Services\\TransactionService\\BusinessLayer\\BusinessLayer.csproj": {}
   },
   "projects": {
-    "D:\\univer\\anul4\\pad\\laborator2\\pad_lab2\\services\\transactionservice\\BusinessLayer\\BusinessLayer.csproj": {
+    "C:\\Users\\Artyrik\\Desktop\\PAD_Lab2\\Services\\TransactionService\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\univer\\anul4\\pad\\laborator2\\pad_lab2\\services\\transactionservice\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Artyrik\\Desktop\\PAD_Lab2\\Services\\TransactionService\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "D:\\univer\\anul4\\pad\\laborator2\\pad_lab2\\services\\transactionservice\\BusinessLayer\\BusinessLayer.csproj",
-        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "D:\\univer\\anul4\\pad\\laborator2\\pad_lab2\\services\\transactionservice\\BusinessLayer\\obj\\",
+        "projectPath": "C:\\Users\\Artyrik\\Desktop\\PAD_Lab2\\Services\\TransactionService\\BusinessLayer\\BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\Artyrik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Artyrik\\Desktop\\PAD_Lab2\\Services\\TransactionService\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Artyrik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -26,6 +31,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +43,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -54,7 +61,11 @@
             },
             "MongoDB.Driver": {
               "target": "Package",
-              "version": "[2.11.3, )"
+              "version": "[2.11.4, )"
+            },
+            "MongoDB.Driver.Core": {
+              "target": "Package",
+              "version": "[2.11.4, )"
             }
           },
           "imports": [
@@ -72,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

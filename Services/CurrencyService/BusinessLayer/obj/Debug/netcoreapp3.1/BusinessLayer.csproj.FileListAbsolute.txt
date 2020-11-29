@@ -34,3 +34,17 @@ D:\Univer\ANUL4\PAD\Laborator2\PAD_Lab2\Services\CurrencyService\BusinessLayer\b
 D:\Univer\ANUL4\PAD\Laborator2\PAD_Lab2\Services\CurrencyService\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.pdb
 D:\Univer\ANUL4\PAD\Laborator2\PAD_Lab2\Services\CurrencyService\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.genruntimeconfig.cache
 D:\univer\anul4\pad\laborator2\pad_lab2\services\currencyservice\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.csprojAssemblyReference.cache
+C:\Users\Artyrik\Desktop\PAD_Lab2\Services\CurrencyService\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\Artyrik\Desktop\PAD_Lab2\Services\CurrencyService\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.AssemblyInfo.cs
+C:\Users\Artyrik\Desktop\PAD_Lab2\Services\CurrencyService\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Artyrik\Desktop\PAD_Lab2\Services\CurrencyService\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.dll
+C:\Users\Artyrik\Desktop\PAD_Lab2\Services\CurrencyService\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.pdb
+C:\Users\Artyrik\Desktop\PAD_Lab2\Services\CurrencyService\BusinessLayer\bin\Debug\netcoreapp3.1\snappy32.dll
+C:\Users\Artyrik\Desktop\PAD_Lab2\Services\CurrencyService\BusinessLayer\bin\Debug\netcoreapp3.1\snappy64.dll
+C:\Users\Artyrik\Desktop\PAD_Lab2\Services\CurrencyService\BusinessLayer\bin\Debug\netcoreapp3.1\libzstd.dll
+C:\Users\Artyrik\Desktop\PAD_Lab2\Services\CurrencyService\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.deps.json
+C:\Users\Artyrik\Desktop\PAD_Lab2\Services\CurrencyService\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.runtimeconfig.json
+C:\Users\Artyrik\Desktop\PAD_Lab2\Services\CurrencyService\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.runtimeconfig.dev.json
+C:\Users\Artyrik\Desktop\PAD_Lab2\Services\CurrencyService\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.dll
+C:\Users\Artyrik\Desktop\PAD_Lab2\Services\CurrencyService\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.pdb
+C:\Users\Artyrik\Desktop\PAD_Lab2\Services\CurrencyService\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.genruntimeconfig.cache

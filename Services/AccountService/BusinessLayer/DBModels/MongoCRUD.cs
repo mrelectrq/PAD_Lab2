@@ -12,8 +12,15 @@ namespace BusinessLayer.DBModels
         private readonly IMongoCollection<Accounts> collection;
         public MongoCRUD(string database)
         {
-            var client = new MongoClient("mongodb://localhost:40000");
-            db = client.GetDatabase(database);
+            string connectionString =
+  @"mongodb://paddb:UDlvZh3DdHdeXAACTWUR7JZWoR0LNHZIjHuga87IyBzov2zfxP5dOAQI0OO9c2QCVpnRBe32iNYALOkGjzjnbw==@paddb.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&maxIdleTimeMS=120000&appName=@paddb@";
+            MongoClientSettings settings = MongoClientSettings.FromUrl(
+              new MongoUrl(connectionString)
+            );
+            settings.SslSettings =
+              new SslSettings() { EnabledSslProtocols = System.Security.Authentication.SslProtocols.Tls12 };
+            var client = new MongoClient(settings);
+             db = client.GetDatabase(database);
             collection = db.GetCollection<Accounts>("Accounts");
 
         }

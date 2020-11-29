@@ -1,21 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\AccountService\\AccountServiceTests\\AccountServiceTests.csproj": {}
+    "C:\\Users\\Artyrik\\Desktop\\PAD_Lab2\\Services\\AccountService\\AccountServiceTests\\AccountServiceTests.csproj": {}
   },
   "projects": {
-    "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\AccountService\\AccountServiceTests\\AccountServiceTests.csproj": {
+    "C:\\Users\\Artyrik\\Desktop\\PAD_Lab2\\Services\\AccountService\\AccountServiceTests\\AccountServiceTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\AccountService\\AccountServiceTests\\AccountServiceTests.csproj",
+        "projectUniqueName": "C:\\Users\\Artyrik\\Desktop\\PAD_Lab2\\Services\\AccountService\\AccountServiceTests\\AccountServiceTests.csproj",
         "projectName": "AccountServiceTests",
-        "projectPath": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\AccountService\\AccountServiceTests\\AccountServiceTests.csproj",
-        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\AccountService\\AccountServiceTests\\obj\\",
+        "projectPath": "C:\\Users\\Artyrik\\Desktop\\PAD_Lab2\\Services\\AccountService\\AccountServiceTests\\AccountServiceTests.csproj",
+        "packagesPath": "C:\\Users\\Artyrik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Artyrik\\Desktop\\PAD_Lab2\\Services\\AccountService\\AccountServiceTests\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Artyrik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -26,9 +31,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\AccountService\\AccountService\\AccountService.csproj": {
-                "projectPath": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\AccountService\\AccountService\\AccountService.csproj"
+              "C:\\Users\\Artyrik\\Desktop\\PAD_Lab2\\Services\\AccountService\\AccountService\\AccountService.csproj": {
+                "projectPath": "C:\\Users\\Artyrik\\Desktop\\PAD_Lab2\\Services\\AccountService\\AccountService\\AccountService.csproj"
               }
             }
           }
@@ -41,6 +47,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "MSTest.TestAdapter": {
               "target": "Package",
@@ -81,22 +88,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\AccountService\\AccountService\\AccountService.csproj": {
+    "C:\\Users\\Artyrik\\Desktop\\PAD_Lab2\\Services\\AccountService\\AccountService\\AccountService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\AccountService\\AccountService\\AccountService.csproj",
+        "projectUniqueName": "C:\\Users\\Artyrik\\Desktop\\PAD_Lab2\\Services\\AccountService\\AccountService\\AccountService.csproj",
         "projectName": "AccountService",
-        "projectPath": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\AccountService\\AccountService\\AccountService.csproj",
-        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\AccountService\\AccountService\\obj\\",
+        "projectPath": "C:\\Users\\Artyrik\\Desktop\\PAD_Lab2\\Services\\AccountService\\AccountService\\AccountService.csproj",
+        "packagesPath": "C:\\Users\\Artyrik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Artyrik\\Desktop\\PAD_Lab2\\Services\\AccountService\\AccountService\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Artyrik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -107,9 +119,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\AccountService\\BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\AccountService\\BusinessLayer\\BusinessLayer.csproj"
+              "C:\\Users\\Artyrik\\Desktop\\PAD_Lab2\\Services\\AccountService\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\Artyrik\\Desktop\\PAD_Lab2\\Services\\AccountService\\BusinessLayer\\BusinessLayer.csproj"
               }
             }
           }
@@ -122,6 +135,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -140,22 +154,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\AccountService\\BusinessLayer\\BusinessLayer.csproj": {
+    "C:\\Users\\Artyrik\\Desktop\\PAD_Lab2\\Services\\AccountService\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\AccountService\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Artyrik\\Desktop\\PAD_Lab2\\Services\\AccountService\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\AccountService\\BusinessLayer\\BusinessLayer.csproj",
-        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "D:\\Univer\\ANUL4\\PAD\\Laborator2\\PAD_Lab2\\Services\\AccountService\\BusinessLayer\\obj\\",
+        "projectPath": "C:\\Users\\Artyrik\\Desktop\\PAD_Lab2\\Services\\AccountService\\BusinessLayer\\BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\Artyrik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Artyrik\\Desktop\\PAD_Lab2\\Services\\AccountService\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Artyrik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -166,6 +185,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -177,6 +197,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -200,11 +221,11 @@
             },
             "MongoDB.Driver": {
               "target": "Package",
-              "version": "[2.11.3, )"
+              "version": "[2.11.4, )"
             },
             "MongoDB.Driver.Core": {
               "target": "Package",
-              "version": "[2.11.3, )"
+              "version": "[2.11.4, )"
             }
           },
           "imports": [
@@ -222,7 +243,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

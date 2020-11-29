@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\TransactionService\\TransactionServiceTests\\TransactionServiceTests.csproj": {}
+    "C:\\Users\\Artyrik\\Desktop\\PAD_Lab2\\Services\\TransactionService\\TransactionServiceTests\\TransactionServiceTests.csproj": {}
   },
   "projects": {
-    "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\TransactionService\\BusinessLayer\\BusinessLayer.csproj": {
+    "C:\\Users\\Artyrik\\Desktop\\PAD_Lab2\\Services\\TransactionService\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\TransactionService\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Artyrik\\Desktop\\PAD_Lab2\\Services\\TransactionService\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\TransactionService\\BusinessLayer\\BusinessLayer.csproj",
+        "projectPath": "C:\\Users\\Artyrik\\Desktop\\PAD_Lab2\\Services\\TransactionService\\BusinessLayer\\BusinessLayer.csproj",
         "packagesPath": "C:\\Users\\Artyrik\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\TransactionService\\BusinessLayer\\obj\\",
+        "outputPath": "C:\\Users\\Artyrik\\Desktop\\PAD_Lab2\\Services\\TransactionService\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Artyrik\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -29,6 +31,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -40,6 +43,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -57,7 +61,11 @@
             },
             "MongoDB.Driver": {
               "target": "Package",
-              "version": "[2.11.3, )"
+              "version": "[2.11.4, )"
+            },
+            "MongoDB.Driver.Core": {
+              "target": "Package",
+              "version": "[2.11.4, )"
             }
           },
           "imports": [
@@ -75,25 +83,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\TransactionService\\TransactionServiceTests\\TransactionServiceTests.csproj": {
+    "C:\\Users\\Artyrik\\Desktop\\PAD_Lab2\\Services\\TransactionService\\TransactionServiceTests\\TransactionServiceTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\TransactionService\\TransactionServiceTests\\TransactionServiceTests.csproj",
+        "projectUniqueName": "C:\\Users\\Artyrik\\Desktop\\PAD_Lab2\\Services\\TransactionService\\TransactionServiceTests\\TransactionServiceTests.csproj",
         "projectName": "TransactionServiceTests",
-        "projectPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\TransactionService\\TransactionServiceTests\\TransactionServiceTests.csproj",
+        "projectPath": "C:\\Users\\Artyrik\\Desktop\\PAD_Lab2\\Services\\TransactionService\\TransactionServiceTests\\TransactionServiceTests.csproj",
         "packagesPath": "C:\\Users\\Artyrik\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\TransactionService\\TransactionServiceTests\\obj\\",
+        "outputPath": "C:\\Users\\Artyrik\\Desktop\\PAD_Lab2\\Services\\TransactionService\\TransactionServiceTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Artyrik\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -104,9 +114,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\TransactionService\\TransactionService\\TransactionService.csproj": {
-                "projectPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\TransactionService\\TransactionService\\TransactionService.csproj"
+              "C:\\Users\\Artyrik\\Desktop\\PAD_Lab2\\Services\\TransactionService\\TransactionService\\TransactionService.csproj": {
+                "projectPath": "C:\\Users\\Artyrik\\Desktop\\PAD_Lab2\\Services\\TransactionService\\TransactionService\\TransactionService.csproj"
               }
             }
           }
@@ -119,6 +130,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "MSTest.TestAdapter": {
               "target": "Package",
@@ -155,25 +167,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\TransactionService\\TransactionService\\TransactionService.csproj": {
+    "C:\\Users\\Artyrik\\Desktop\\PAD_Lab2\\Services\\TransactionService\\TransactionService\\TransactionService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\TransactionService\\TransactionService\\TransactionService.csproj",
+        "projectUniqueName": "C:\\Users\\Artyrik\\Desktop\\PAD_Lab2\\Services\\TransactionService\\TransactionService\\TransactionService.csproj",
         "projectName": "TransactionService",
-        "projectPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\TransactionService\\TransactionService\\TransactionService.csproj",
+        "projectPath": "C:\\Users\\Artyrik\\Desktop\\PAD_Lab2\\Services\\TransactionService\\TransactionService\\TransactionService.csproj",
         "packagesPath": "C:\\Users\\Artyrik\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\TransactionService\\TransactionService\\obj\\",
+        "outputPath": "C:\\Users\\Artyrik\\Desktop\\PAD_Lab2\\Services\\TransactionService\\TransactionService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Artyrik\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -184,9 +198,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\TransactionService\\BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\TransactionService\\BusinessLayer\\BusinessLayer.csproj"
+              "C:\\Users\\Artyrik\\Desktop\\PAD_Lab2\\Services\\TransactionService\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\Artyrik\\Desktop\\PAD_Lab2\\Services\\TransactionService\\BusinessLayer\\BusinessLayer.csproj"
               }
             }
           }
@@ -199,6 +214,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -217,7 +233,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -695,7 +695,7 @@
           }
         }
       },
-      "MongoDB.Bson/2.11.3": {
+      "MongoDB.Bson/2.11.4": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/MongoDB.Bson.dll": {}
@@ -704,11 +704,11 @@
           "lib/netstandard2.0/MongoDB.Bson.dll": {}
         }
       },
-      "MongoDB.Driver/2.11.3": {
+      "MongoDB.Driver/2.11.4": {
         "type": "package",
         "dependencies": {
-          "MongoDB.Bson": "2.11.3",
-          "MongoDB.Driver.Core": "2.11.3",
+          "MongoDB.Bson": "2.11.4",
+          "MongoDB.Driver.Core": "2.11.4",
           "MongoDB.Libmongocrypt": "1.0.0"
         },
         "compile": {
@@ -718,11 +718,11 @@
           "lib/netstandard2.0/MongoDB.Driver.dll": {}
         }
       },
-      "MongoDB.Driver.Core/2.11.3": {
+      "MongoDB.Driver.Core/2.11.4": {
         "type": "package",
         "dependencies": {
           "DnsClient": "1.3.1",
-          "MongoDB.Bson": "2.11.3",
+          "MongoDB.Bson": "2.11.4",
           "MongoDB.Libmongocrypt": "1.0.0",
           "SharpCompress": "0.23.0",
           "System.Buffers": "4.4.0"
@@ -2530,7 +2530,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.9",
           "Microsoft.EntityFrameworkCore.SqlServer.Design": "1.1.6",
-          "MongoDB.Driver": "2.11.3"
+          "MongoDB.Driver": "2.11.4",
+          "MongoDB.Driver.Core": "2.11.4"
         },
         "compile": {
           "bin/placeholder/BusinessLayer.dll": {}
@@ -3588,10 +3589,10 @@
         "version.txt"
       ]
     },
-    "MongoDB.Bson/2.11.3": {
-      "sha512": "pz8qtNVGLRRdDHmkRb5r/w4KYAnPClkGbQUPAuYudlMc2cd1HRIgIQMvY3lE5F0qFAhrceObbF57UHDwcSK5xg==",
+    "MongoDB.Bson/2.11.4": {
+      "sha512": "4i/c7Qq4ov2r1Z9yMigcQNLVukJDuMJclKiHLGPx6fpV0c8/A/WMsRDQJv3NeEhkKbFXamxFmRPKv1ztw0u3cA==",
       "type": "package",
-      "path": "mongodb.bson/2.11.3",
+      "path": "mongodb.bson/2.11.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3602,15 +3603,15 @@
         "lib/netstandard1.5/MongoDB.Bson.xml",
         "lib/netstandard2.0/MongoDB.Bson.dll",
         "lib/netstandard2.0/MongoDB.Bson.xml",
-        "mongodb.bson.2.11.3.nupkg.sha512",
+        "mongodb.bson.2.11.4.nupkg.sha512",
         "mongodb.bson.nuspec",
         "packageIcon.png"
       ]
     },
-    "MongoDB.Driver/2.11.3": {
-      "sha512": "SqDCN7a8ejLB9q1lowxf6v6mD2Q/1ZSle4aEfrB0ITs0+GxjMe2zNPzxIGgsIaux1HuAwAOEP4le9SaicSj+5g==",
+    "MongoDB.Driver/2.11.4": {
+      "sha512": "cVBBI38GMbVAPdz+JxeE9Pbv6YVZ/idswlgRA4vJZ/+uqGb6FoDeO8z1d0xp18Yo2Jdl2SHC8MGyaAjVxbnlIg==",
       "type": "package",
-      "path": "mongodb.driver/2.11.3",
+      "path": "mongodb.driver/2.11.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3621,15 +3622,15 @@
         "lib/netstandard1.5/MongoDB.Driver.xml",
         "lib/netstandard2.0/MongoDB.Driver.dll",
         "lib/netstandard2.0/MongoDB.Driver.xml",
-        "mongodb.driver.2.11.3.nupkg.sha512",
+        "mongodb.driver.2.11.4.nupkg.sha512",
         "mongodb.driver.nuspec",
         "packageIcon.png"
       ]
     },
-    "MongoDB.Driver.Core/2.11.3": {
-      "sha512": "BKX6HlO2RuNO3lX4jjwdHChmjisgjm9BsSPAiUXTEG6SSithL1IxuM+xqVRG8e/w7Z6YWZdU2ruTUZM4BVyN3A==",
+    "MongoDB.Driver.Core/2.11.4": {
+      "sha512": "yyd9ufa3h1zlVooDJKRg38x5rRStqElKARLwZxsdlvvyBNx4zB5caUYq41ydF42Je1OJpraNpx3ZJEjdlX0LBg==",
       "type": "package",
-      "path": "mongodb.driver.core/2.11.3",
+      "path": "mongodb.driver.core/2.11.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3654,7 +3655,7 @@
         "lib/netstandard1.5/MongoDB.Driver.Core.xml",
         "lib/netstandard2.0/MongoDB.Driver.Core.dll",
         "lib/netstandard2.0/MongoDB.Driver.Core.xml",
-        "mongodb.driver.core.2.11.3.nupkg.sha512",
+        "mongodb.driver.core.2.11.4.nupkg.sha512",
         "mongodb.driver.core.nuspec",
         "packageIcon.png",
         "runtimes/win/native/libzstd.dll",
@@ -8313,23 +8314,26 @@
   },
   "packageFolders": {
     "C:\\Users\\Artyrik\\.nuget\\packages\\": {},
+    "D:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\TransactionService\\TransactionServiceTests\\TransactionServiceTests.csproj",
+      "projectUniqueName": "C:\\Users\\Artyrik\\Desktop\\PAD_Lab2\\Services\\TransactionService\\TransactionServiceTests\\TransactionServiceTests.csproj",
       "projectName": "TransactionServiceTests",
-      "projectPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\TransactionService\\TransactionServiceTests\\TransactionServiceTests.csproj",
+      "projectPath": "C:\\Users\\Artyrik\\Desktop\\PAD_Lab2\\Services\\TransactionService\\TransactionServiceTests\\TransactionServiceTests.csproj",
       "packagesPath": "C:\\Users\\Artyrik\\.nuget\\packages\\",
-      "outputPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\TransactionService\\TransactionServiceTests\\obj\\",
+      "outputPath": "C:\\Users\\Artyrik\\Desktop\\PAD_Lab2\\Services\\TransactionService\\TransactionServiceTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "D:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\Artyrik\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -8340,9 +8344,10 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\TransactionService\\TransactionService\\TransactionService.csproj": {
-              "projectPath": "D:\\Visual Projects\\UTM\\PAD\\PAD_Lab2.2\\Services\\TransactionService\\TransactionService\\TransactionService.csproj"
+            "C:\\Users\\Artyrik\\Desktop\\PAD_Lab2\\Services\\TransactionService\\TransactionService\\TransactionService.csproj": {
+              "projectPath": "C:\\Users\\Artyrik\\Desktop\\PAD_Lab2\\Services\\TransactionService\\TransactionService\\TransactionService.csproj"
             }
           }
         }
@@ -8355,6 +8360,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "MSTest.TestAdapter": {
             "target": "Package",
@@ -8391,7 +8397,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
