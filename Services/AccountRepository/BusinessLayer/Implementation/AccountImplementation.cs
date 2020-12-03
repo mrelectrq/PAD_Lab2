@@ -16,12 +16,9 @@ namespace BusinessLayer.Implementation
             try
             {
                 MongoCRUD context = new MongoCRUD("PADLaboratories");
-              //  var data1 = new AccountMessage { FirstName = "Binzari", LastName = "Ionica", Phone = "123214", DateRegistered = DateTime.Now, Description = "Test", Balance = 14213.5 };
-               // var data2 = new AccountMessage { FirstName = "Binzari", LastName = "Ionica", Phone = "123214", DateRegistered = DateTime.Now, Description = "Test", Balance = 14213.5 };
 
                 var insert = context.InsertAccount(data);
-              //  context.InsertAccount(data1);
-              // context.InsertAccount(data2);
+
                var account = context.GetAccount(data);
                 if (account == null)
                 {

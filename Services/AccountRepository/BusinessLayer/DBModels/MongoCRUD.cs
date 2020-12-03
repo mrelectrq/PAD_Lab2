@@ -12,8 +12,7 @@ namespace BusinessLayer.DBModels
         private readonly IMongoCollection<Accounts> collection;
         public MongoCRUD(string database)
         {
-            string connectionString =
-  @"mongodb://paddb:UDlvZh3DdHdeXAACTWUR7JZWoR0LNHZIjHuga87IyBzov2zfxP5dOAQI0OO9c2QCVpnRBe32iNYALOkGjzjnbw==@paddb.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&maxIdleTimeMS=120000&appName=@paddb@";
+            string connectionString =@"mongodb://padlaboratories:4mX5yrfc7S8fBusF0Mo0KNNO3d0mwdNYVl03Lq5OU4UsTXo11iY4B6nXZgiEqkuvfxL99CWnLqYF7VaSATAPbg==@padlaboratories.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&maxIdleTimeMS=120000&appName=@padlaboratories@";
             MongoClientSettings settings = MongoClientSettings.FromUrl(
               new MongoUrl(connectionString)
             );
