@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: transactionrepository 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: transactionrepository
+  template:
+    metadata:
+      labels:
+        app: transactionrepository 
+    spec:
+      containers:
+        - name: transactionrepository 
+          image: transactioncontainerapi.azurecr.io/transactionrepository
+          ports:
+          - containerPort: 80
